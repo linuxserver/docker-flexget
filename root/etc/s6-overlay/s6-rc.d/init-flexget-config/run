@@ -1,0 +1,28 @@
+#!/usr/bin/with-contenv bash
+# shellcheck shell=bash
+
+mkdir -p \
+    /config/.flexget \
+    /data
+
+# clean up config-lock from unclean shutdown
+if [[ -f "/config/.flexget/.config-lock" ]]; then
+    rm -rf "/config/.flexget/.config-lock"
+fi
+
+if [[ ! -f "/config/.flexget/config.yml" ]]; then
+    cp /default/config.yml /config/.flexget/config.yml
+fi
+
+if [[ -n "${FG_WEBUI_PASSWORD}" ]]; then
+    if ! flexget --loglevel error web passwd "${FG_WEBUI_PASSWORD}" | tee /dev/stderr | grep -q 'Updated password'; then
+        exit 1
+    fi
+fi
+
+# permissions
+lsiown -R abc:abc \
+    /config \
+
+lsiown abc:abc \
+    /data
