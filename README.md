@@ -90,7 +90,7 @@ services:
       - PGID=1000
       - TZ=Etc/UTC
       - FG_LOG_LEVEL=info
-      - FG_WEBUI_PASSWORD=info
+      - FG_WEBUI_PASSWORD=info #optional
     volumes:
       - /path/to/data:/config
       - /path/to/downloads:/data #optional
@@ -108,7 +108,7 @@ docker run -d \
   -e PGID=1000 \
   -e TZ=Etc/UTC \
   -e FG_LOG_LEVEL=info \
-  -e FG_WEBUI_PASSWORD=info \
+  -e FG_WEBUI_PASSWORD=info `#optional` \
   -p 5050:5050 \
   -v /path/to/data:/config \
   -v /path/to/downloads:/data `#optional` \

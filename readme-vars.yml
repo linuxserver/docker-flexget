@@ -22,7 +22,6 @@ param_container_name: "{{ project_name }}"
 param_usage_include_env: true
 param_env_vars:
   - { env_var: "FG_LOG_LEVEL", env_value: "info", desc: "Set the FlexGet logging level." }
-  - { env_var: "FG_WEBUI_PASSWORD", env_value: "info", desc: "Set the FlexGet webui password. Pay attention to Bash/YAML reserved characters." }
 param_usage_include_vols: true
 param_volumes:
   - { vol_path: "/config", vol_host_path: "/path/to/data", desc: "Local path for sabnzbd config files." }
@@ -31,6 +30,10 @@ param_ports:
   - { external_port: "5050", internal_port: "5050", port_desc: "HTTP port for the WebUI." }
 
 # optional container parameters
+opt_param_usage_include_env: true
+opt_param_env_vars:
+  - { env_var: "FG_WEBUI_PASSWORD", env_value: "info", desc: "Set the FlexGet webui password. Pay attention to Bash/YAML reserved characters." }
+
 opt_param_usage_include_vols: true
 opt_param_volumes:
   - { vol_path: "/data", vol_host_path: "/path/to/downloads", desc: "Default path for downloads." }
