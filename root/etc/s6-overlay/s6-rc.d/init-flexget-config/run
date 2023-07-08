@@ -16,6 +16,7 @@ fi
 
 if [[ -n "${FG_WEBUI_PASSWORD}" ]]; then
     if ! flexget --loglevel error web passwd "${FG_WEBUI_PASSWORD}" | tee /dev/stderr | grep -q 'Updated password'; then
+        echo "Halting init, please address the above issues and recreate the container"
         sleep infinity
     fi
 fi
