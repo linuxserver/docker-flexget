@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-FROM ghcr.io/by275/libtorrent:2.0.9-alpine3.18 as libtorrent
+FROM ghcr.io/by275/libtorrent:2-alpine3.18 as libtorrent
 
 FROM ghcr.io/linuxserver/baseimage-alpine:3.18
 
