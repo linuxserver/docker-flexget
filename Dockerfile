@@ -21,7 +21,6 @@ RUN \
   apk add -U --update --no-cache --virtual=build-dependencies \
     build-base \
     libffi-dev \
-    openssl-dev \
     python3-dev && \
   apk add  -U --update --no-cache \
     7zip \
@@ -60,7 +59,7 @@ RUN \
     wheel && \
   pip install -U --no-cache --find-links https://wheel-index.linuxserver.io/alpine-3.18/ \
     click \
-    flexget \
+    flexget==${FLEXGET_VERSION#v} \
     requests \
     -r requirements-docker.txt && \
   echo "**** cleanup ****" && \
