@@ -24,7 +24,7 @@ param_env_vars:
   - { env_var: "FG_LOG_LEVEL", env_value: "info", desc: "Set the FlexGet logging level." }
 param_usage_include_vols: true
 param_volumes:
-  - { vol_path: "/config", vol_host_path: "/path/to/data", desc: "Local path for sabnzbd config files." }
+  - { vol_path: "/config", vol_host_path: "/path/to/data", desc: "Local path for FlexGet config files." }
 param_usage_include_ports: true
 param_ports:
   - { external_port: "5050", internal_port: "5050", port_desc: "HTTP port for the WebUI." }

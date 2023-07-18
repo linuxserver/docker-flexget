@@ -129,7 +129,7 @@ Container images are configured using parameters passed at runtime (such as thos
 | `-e TZ=Etc/UTC` | specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List). |
 | `-e FG_LOG_LEVEL=info` | Set the FlexGet logging level. |
 | `-e FG_WEBUI_PASSWORD=info` | Set the FlexGet webui password. Pay attention to Bash/YAML reserved characters. |
-| `-v /config` | Local path for sabnzbd config files. |
+| `-v /config` | Local path for FlexGet config files. |
 | `-v /data` | Default path for downloads. |
 
 ## Environment variables from files (Docker secrets)
