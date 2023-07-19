@@ -4,4 +4,4 @@
 exec \
     s6-notifyoncheck -d -n 300 -w 1000 -c "nc -z localhost 5050" \
         s6-setuidgid abc python3 /lsiopy/bin/flexget \
-            --loglevel "${FG_LOG_LEVEL:-info}" --logfile "/config/flexget.log" -c /config/.flexget/config.yml daemon start --autoreload-config
+            --loglevel "${FG_LOG_LEVEL:-info}" --logfile "${FG_LOG_FILE:-/config/flexget.log}" -c "${FG_CONFIG_FILE:-/config/.flexget/config.yml}" daemon start --autoreload-config
