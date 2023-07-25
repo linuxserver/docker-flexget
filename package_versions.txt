@@ -8,7 +8,7 @@ Flask-Compress          1.13                    python
 Flask-Cors              3.0.10                  python  
 Flask-Login             0.6.2                   python  
 Flask-RESTful           0.3.9                   python  
-FlexGet                 3.7.10                  python  
+FlexGet                 3.7.11                  python  
 Jinja2                  3.1.2                   python  
 MarkupSafe              2.1.1                   python  
 PyRSS2Gen               1.1                     python  
@@ -46,7 +46,7 @@ colorama                0.4.6                   python
 commonmark              0.9.1                   python  
 coreutils               9.3-r1                  apk     
 cryptography            38.0.4                  python  
-curl                    8.1.2-r0                apk     
+curl                    8.2.0-r1                apk     
 decorator               5.1.1                   python  
 deluge-client           1.9.0                   python  
 feedparser              6.0.10                  python  
@@ -72,8 +72,8 @@ libattr                 2.5.1-r4                apk
 libbsd                  0.11.7-r1               apk     
 libbz2                  1.0.8-r5                apk     
 libc-utils              0.7.2-r5                apk     
-libcrypto3              3.1.1-r2                apk     
-libcurl                 8.1.2-r0                apk     
+libcrypto3              3.1.1-r3                apk     
+libcurl                 8.2.0-r1                apk     
 libexpat                2.5.0-r1                apk     
 libffi                  3.4.4-r2                apk     
 libgcc                  12.2.1_git20220924-r10  apk     
@@ -83,7 +83,7 @@ libmd                   1.0.4-r2                apk
 libncursesw             6.4_p20230506-r0        apk     
 libpanelw               6.4_p20230506-r0        apk     
 libproc2                4.0.3-r1                apk     
-libssl3                 3.1.1-r2                apk     
+libssl3                 3.1.1-r3                apk     
 libstdc++               12.2.1_git20220924-r10  apk     
 libunistring            1.1-r1                  apk     
 linux-pam               1.5.2-r10               apk     
@@ -94,12 +94,12 @@ musl                    1.2.4-r0                apk
 musl-utils              1.2.4-r0                apk     
 ncurses-terminfo-base   6.4_p20230506-r0        apk     
 netcat-openbsd          1.219-r1                apk     
-nghttp2-libs            1.53.0-r0               apk     
+nghttp2-libs            1.55.1-r0               apk     
 node                    18.17.0                 binary  
 nodejs                  18.17.0-r0              apk     
 oniguruma               6.9.8-r1                apk     
 packaging               22.0                    python  
-pip                     23.2                    python  
+pip                     23.2.1                  python  
 plumbum                 1.8.0                   python  
 portend                 3.1.0                   python  
 procps-ng               4.0.3-r1                apk     
@@ -145,7 +145,7 @@ tzlocal                 4.2                     python
 urllib3                 1.26.13                 python  
 utmps-libs              0.1.2.1-r1              apk     
 webencodings            0.5.1                   python  
-wheel                   0.40.0                  python  
+wheel                   0.41.0                  python  
 xz-libs                 5.4.3-r0                apk     
 zc.lockfile             2.0                     python  
 zlib                    1.2.13-r1               apk     
