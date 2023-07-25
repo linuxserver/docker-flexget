@@ -6,7 +6,18 @@ mkdir -p \
     /data
 
 FG_CONFIG_FILE="${FG_CONFIG_FILE:-/config/.flexget/config.yml}"
-FG_LOCK_FILE="${FG_CONFIG_FILE/config.yml/.config-lock}"
+case "${FG_CONFIG_FILE}" in
+  *yml)
+    FG_LOCK_FILE="${FG_CONFIG_FILE/config.yml/.config-lock}"
+    ;;
+  *yaml)
+    FG_LOCK_FILE="${FG_CONFIG_FILE/config.yaml/.config-lock}"
+    ;;
+  default)
+    echo "invalid config file extension"
+    exit 1
+    ;;
+esac
 # clean up config-lock from unclean shutdown
 if [[ -f "${FG_LOCK_FILE}" ]]; then
     rm -rf "${FG_LOCK_FILE}"
