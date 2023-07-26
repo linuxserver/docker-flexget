@@ -5,17 +5,30 @@ mkdir -p \
     /config/.flexget \
     /data
 
+FG_CONFIG_FILE="${FG_CONFIG_FILE:-/config/.flexget/config.yml}"
+case "${FG_CONFIG_FILE}" in
+  *yml)
+    FG_LOCK_FILE="${FG_CONFIG_FILE/config.yml/.config-lock}"
+    ;;
+  *yaml)
+    FG_LOCK_FILE="${FG_CONFIG_FILE/config.yaml/.config-lock}"
+    ;;
+  default)
+    echo "invalid config file extension"
+    exit 1
+    ;;
+esac
 # clean up config-lock from unclean shutdown
-if [[ -f "/config/.flexget/.config-lock" ]]; then
-    rm -rf "/config/.flexget/.config-lock"
+if [[ -f "${FG_LOCK_FILE}" ]]; then
+    rm -rf "${FG_LOCK_FILE}"
 fi
 
-if [[ ! -f "/config/.flexget/config.yml" ]]; then
-    cp /default/config.yml /config/.flexget/config.yml
+if [[ ! -f "{$FG_CONFIG_FILE}" ]]; then
+    cp /default/config.yml "${FG_CONFIG_FILE}"
 fi
 
 if [[ -n "${FG_WEBUI_PASSWORD}" ]]; then
-    if ! flexget --loglevel error web passwd "${FG_WEBUI_PASSWORD}" | tee /dev/stderr | grep -q 'Updated password'; then
+    if ! flexget -c "${FG_CONFIG_FILE}" --loglevel error web passwd "${FG_WEBUI_PASSWORD}" | tee /dev/stderr | grep -q 'Updated password'; then
         echo "Halting init, please address the above issues and recreate the container"
         sleep infinity
     fi

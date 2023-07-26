@@ -22,6 +22,8 @@ param_container_name: "{{ project_name }}"
 param_usage_include_env: true
 param_env_vars:
   - { env_var: "FG_LOG_LEVEL", env_value: "info", desc: "Set the FlexGet logging level." }
+  - { env_var: "FG_LOG_FILE", env_value: "/config/flexget.log", desc: "Set the FlexGet log file location." }
+  - { env_var: "FG_CONFIG_FILE", env_value: "/config/.flexget/config.yml", desc: "Set the FlexGet config file location." }
 param_usage_include_vols: true
 param_volumes:
   - { vol_path: "/config", vol_host_path: "/path/to/data", desc: "Local path for FlexGet config files." }
