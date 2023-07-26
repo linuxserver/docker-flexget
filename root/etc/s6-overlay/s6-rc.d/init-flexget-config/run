@@ -18,12 +18,13 @@ case "${FG_CONFIG_FILE}" in
     exit 1
     ;;
 esac
+
 # clean up config-lock from unclean shutdown
 if [[ -f "${FG_LOCK_FILE}" ]]; then
     rm -rf "${FG_LOCK_FILE}"
 fi
 
-if [[ ! -f "{$FG_CONFIG_FILE}" ]]; then
+if [[ ! -f "${FG_CONFIG_FILE}" ]]; then
     cp /default/config.yml "${FG_CONFIG_FILE}"
 fi
 
