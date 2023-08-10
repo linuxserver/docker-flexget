@@ -57,4 +57,5 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - {date: "10.08.23:", desc: "Bump unrar to 6.2.10."}
   - { date: "03.07.23:", desc: "Initial Release." }
