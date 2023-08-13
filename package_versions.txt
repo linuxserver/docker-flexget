@@ -8,7 +8,7 @@ Flask-Compress              1.13                    python
 Flask-Cors                  3.0.10                  python  
 Flask-Login                 0.6.2                   python  
 Flask-RESTful               0.3.9                   python  
-FlexGet                     3.8.5                   python  
+FlexGet                     3.8.6                   python  
 Jinja2                      3.1.2                   python  
 MarkupSafe                  2.1.1                   python  
 PyRSS2Gen                   1.1                     python  
@@ -20,7 +20,7 @@ Werkzeug                    2.2.3                   python
 alpine-baselayout           3.4.3-r1                apk     
 alpine-baselayout-data      3.4.3-r1                apk     
 alpine-keys                 2.4-r1                  apk     
-alpine-release              3.18.2-r0               apk     
+alpine-release              3.18.3-r0               apk     
 aniso8601                   9.0.1                   python  
 apk-tools                   2.14.0-r2               apk     
 attrs                       22.1.0                  python  
