@@ -8,13 +8,13 @@ Flask-Compress              1.14                    python
 Flask-Cors                  4.0.0                   python  
 Flask-Login                 0.6.2                   python  
 Flask-RESTful               0.3.10                  python  
-FlexGet                     3.9.13                  python  
+FlexGet                     3.9.14                  python  
 Jinja2                      3.1.2                   python  
 MarkupSafe                  2.1.3                   python  
 PyRSS2Gen                   1.1                     python  
 PyYAML                      6.0.1                   python  
 Pygments                    2.16.1                  python  
-SQLAlchemy                  2.0.21                  python  
+SQLAlchemy                  2.0.22                  python  
 Simple Launcher Executable  1.1.0.14                dotnet  
 Werkzeug                    2.2.3                   python  
 alpine-baselayout           3.4.3-r1                apk     
@@ -98,11 +98,11 @@ nghttp2-libs                1.57.0-r0               apk
 nodejs                      18.18.2-r0              apk     
 oniguruma                   6.9.8-r1                apk     
 packaging                   23.2                    python  
-pip                         23.2.1                  python  
+pip                         23.3                    python  
 plumbum                     1.8.2                   python  
 portend                     3.1.0                   python  
 procps-ng                   4.0.4-r0                apk     
-psutil                      5.9.5                   python  
+psutil                      5.9.6                   python  
 pyc                         0.1-r0                  apk     
 pycparser                   2.21                    python  
 pydantic                    1.10.13                 python  
