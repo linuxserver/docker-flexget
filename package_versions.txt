@@ -14,7 +14,7 @@ PyRSS2Gen                  1.1                     python
 PyYAML                     6.0.1                   python  
 Pygments                   2.17.2                  python  
 SQLAlchemy                 2.0.23                  python  
-SimpleLauncherExecutable   1.1.0.14                dotnet  
+Simple Launcher            1.1.0.14                dotnet  
 Werkzeug                   3.0.1                   python  
 alpine-baselayout          3.4.3-r1                apk     
 alpine-baselayout-data     3.4.3-r1                apk     
@@ -101,7 +101,7 @@ nghttp2-libs               1.57.0-r0               apk
 nodejs                     18.18.2-r0              apk     
 oniguruma                  6.9.8-r1                apk     
 packaging                  23.2                    python  
-pip                        23.3.1                  python  
+pip                        23.3.2                  python  
 plumbum                    1.8.2                   python  
 portend                    3.2.0                   python  
 procps-ng                  4.0.4-r0                apk     
