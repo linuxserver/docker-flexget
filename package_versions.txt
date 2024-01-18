@@ -7,7 +7,7 @@ Flask                      3.0.0                   python
 Flask-Compress             1.14                    python  
 Flask-Cors                 4.0.0                   python  
 Flask-Login                0.6.3                   python  
-FlexGet                    3.11.9                  python  
+FlexGet                    3.11.10                 python  
 Jinja2                     3.1.3                   python  
 MarkupSafe                 2.1.3                   python  
 PyRSS2Gen                  1.1                     python  
@@ -119,7 +119,7 @@ python3                    3.11.6-r0               apk
 python3-pyc                3.11.6-r0               apk     
 python3-pycache-pyc0       3.11.6-r0               apk     
 pytz                       2023.3.post1            python  
-qbittorrent-api            2023.11.57              python  
+qbittorrent-api            2024.1.58               python  
 readline                   8.2.1-r1                apk     
 rebulk                     3.2.0                   python  
 referencing                0.32.0                  python  
@@ -135,7 +135,7 @@ shadow                     4.13-r4                 apk
 six                        1.16.0                  python  
 skalibs                    2.13.1.1-r1             apk     
 soupsieve                  2.5                     python  
-sqlite-libs                3.41.2-r2               apk     
+sqlite-libs                3.41.2-r3               apk     
 ssl_client                 1.36.1-r5               apk     
 tempora                    5.5.0                   python  
 time-machine               2.13.0                  python  
