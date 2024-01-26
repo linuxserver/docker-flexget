@@ -7,7 +7,7 @@ Flask                      3.0.0                   python
 Flask-Compress             1.14                    python  
 Flask-Cors                 4.0.0                   python  
 Flask-Login                0.6.3                   python  
-FlexGet                    3.11.11                 python  
+FlexGet                    3.11.12                 python  
 Jinja2                     3.1.3                   python  
 MarkupSafe                 2.1.3                   python  
 PyRSS2Gen                  1.1                     python  
@@ -140,7 +140,7 @@ ssl_client                 1.36.1-r5               apk
 tempora                    5.5.0                   python  
 time-machine               2.13.0                  python  
 tornado                    6.4                     python  
-transmission-rpc           4.3.1                   python  
+transmission-rpc           7.0.3                   python  
 triangular                 2.5.0                   npm     
 typing_extensions          4.9.0                   python  
 tzdata                     2023.4                  python  
