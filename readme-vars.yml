@@ -26,7 +26,7 @@ param_env_vars:
   - { env_var: "FG_CONFIG_FILE", env_value: "/config/.flexget/config.yml", desc: "Set the FlexGet config file location." }
 param_usage_include_vols: true
 param_volumes:
-  - { vol_path: "/config", vol_host_path: "/path/to/data", desc: "Local path for FlexGet config files." }
+  - { vol_path: "/config", vol_host_path: "/path/to/{{ project_name }}/data", desc: "Local path for FlexGet config files." }
 param_usage_include_ports: true
 param_ports:
   - { external_port: "5050", internal_port: "5050", port_desc: "HTTP port for the WebUI." }
@@ -51,12 +51,13 @@ app_setup_block: |
 
   We have set `/data` as an ***optional path***, this is because it is the easiest way to get started. While easy to use, it has some drawbacks. Mainly losing the ability to hardlink (TL;DR a way for a file to exist in multiple places on the same file system while only consuming one file worth of space), or atomic move (TL;DR instant file moves, rather than copy+delete) files while processing content.
 
-  Use the optional paths if you dont understand, or dont want hardlinks/atomic moves. 
+  Use the optional paths if you don't understand, or don't want hardlinks/atomic moves.
 
   The folks over at servarr.com wrote a good [write-up](https://wiki.servarr.com/docker-guide#consistent-and-well-planned-paths) on how to get started with this.
 
 # changelog
 changelogs:
+  - { date: "20.03.24:", desc: "Rebase to Alpine 3.19."}
   - { date: "07.10.23:", desc: "Install unrar from [linuxserver repo](https://github.com/linuxserver/docker-unrar)."}
   - { date: "10.08.23:", desc: "Bump unrar to 6.2.10."}
   - { date: "03.07.23:", desc: "Initial Release." }
