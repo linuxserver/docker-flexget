@@ -24,7 +24,7 @@ alpine-release             3.19.1-r0              apk
 aniso8601                  9.0.1                  python                   
 annotated-types            0.6.0                  python                   
 anyio                      4.3.0                  python                   
-apk-tools                  2.14.0-r5              apk                      
+apk-tools                  2.14.3-r1              apk                      
 attrs                      23.2.0                 python                   
 autocommand                2.2.2                  python                   
 babelfish                  0.6.0                  python                   
