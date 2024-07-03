@@ -3,7 +3,7 @@
 
 mkdir -p \
     /config/.flexget \
-    /data
+    /run/flexget-temp
 
 FG_CONFIG_FILE="${FG_CONFIG_FILE:-/config/.flexget/config.yml}"
 case "${FG_CONFIG_FILE}" in
@@ -38,6 +38,9 @@ fi
 # permissions
 lsiown -R abc:abc \
     /config \
+    /run/flexget-temp
 
-lsiown abc:abc \
-    /data
+if grep -qe ' /data ' /proc/mounts; then
+    lsiown abc:abc \
+        /data
+fi
