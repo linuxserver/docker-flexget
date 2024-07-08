@@ -36,6 +36,8 @@ opt_param_usage_include_vols: true
 opt_param_volumes:
   - { vol_path: "/data", vol_host_path: "/path/to/downloads", desc: "Default path for downloads." }
 
+readonly_supported: true
+
 # application setup block
 app_setup_block_enabled: true
 app_setup_block: |

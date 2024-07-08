@@ -1,8 +1,8 @@
 # syntax=docker/dockerfile:1
 
-FROM ghcr.io/linuxserver/unrar:latest as unrar
+FROM ghcr.io/linuxserver/unrar:latest AS unrar
 
-FROM ghcr.io/by275/libtorrent:2-alpine3.20 as libtorrent
+FROM ghcr.io/by275/libtorrent:2-alpine3.20 AS libtorrent
 
 FROM ghcr.io/linuxserver/baseimage-alpine:3.20
 
@@ -15,7 +15,8 @@ LABEL maintainer="thespad"
 
 # environment settings
 ENV HOME="/config" \
-  PYTHONIOENCODING=utf-8
+  PYTHONIOENCODING=utf-8 \
+  TMPDIR=/run/flexget-temp
 
 RUN \
   echo "**** install packages ****" && \
@@ -36,6 +37,7 @@ RUN \
     | awk '/tag_name/{print $4;exit}' FS='[""]'); \
   fi && \
   mkdir -p /tmp/flexget && \
+  mkdir -p /data && \
   curl -o \
     /tmp/flexget.tar.gz -L \
     "https://github.com/flexget/flexget/releases/download/${FLEXGET_VERSION}/FlexGet-${FLEXGET_VERSION#v}.tar.gz" && \
