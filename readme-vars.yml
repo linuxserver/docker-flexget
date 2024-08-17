@@ -55,6 +55,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "17.08.24:", desc: "Revert to Alpine 3.20 due to 1st party plugin incompatibility with Python 3.12."}
   - { date: "19.06.24:", desc: "Rebase to Alpine 3.20."}
   - { date: "20.03.24:", desc: "Rebase to Alpine 3.19."}
   - { date: "07.10.23:", desc: "Install unrar from [linuxserver repo](https://github.com/linuxserver/docker-unrar)."}
