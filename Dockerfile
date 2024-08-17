@@ -2,9 +2,9 @@
 
 FROM ghcr.io/linuxserver/unrar:latest AS unrar
 
-FROM ghcr.io/by275/libtorrent:2-alpine3.20 AS libtorrent
+FROM ghcr.io/by275/libtorrent:2-alpine3.19 AS libtorrent
 
-FROM ghcr.io/linuxserver/baseimage-alpine:3.20
+FROM ghcr.io/linuxserver/baseimage-alpine:3.19
 
 # set version label
 ARG BUILD_DATE
@@ -64,7 +64,7 @@ RUN \
 
 COPY --from=libtorrent /libtorrent-build/usr/lib/libtorrent-rasterbar.* /usr/lib/
 
-COPY --from=libtorrent /libtorrent-build/usr/lib/python3.12 /lsiopy/lib/python3.12
+COPY --from=libtorrent /libtorrent-build/usr/lib/python3.11 /lsiopy/lib/python3.11
 
 # add local files
 COPY root/ /
