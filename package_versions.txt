@@ -117,7 +117,7 @@ plumbum                    1.8.3                  python
 portend                    3.2.0                  python                   
 procps-ng                  4.0.4-r0               apk                      
 psutil                     6.0.0                  python                   
-pyc                        3.11.9-r1              apk                      
+pyc                        3.11.10-r0             apk                      
 pycparser                  2.22                   python                   
 pygments                   2.18.0                 python                   
 pynzb                      0.1.0                  python                   
@@ -125,9 +125,9 @@ pyparsing                  3.1.4                  python
 pyrss2gen                  1.1                    python                   
 python-dateutil            2.9.0.post0            python                   
 python-telegram-bot        12.8                   python                   
-python3                    3.11.9-r1              apk                      
-python3-pyc                3.11.9-r1              apk                      
-python3-pycache-pyc0       3.11.9-r1              apk                      
+python3                    3.11.10-r0             apk                      
+python3-pyc                3.11.10-r0             apk                      
+python3-pycache-pyc0       3.11.10-r0             apk                      
 pytz                       2024.1                 python                   
 pyyaml                     6.0.2                  python                   
 qbittorrent-api            2024.8.65              python                   
