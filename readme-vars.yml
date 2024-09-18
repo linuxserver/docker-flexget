@@ -55,6 +55,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "18.09.24:", desc: "Suppress creation of empty log file when WebUI password is set."}
   - { date: "17.08.24:", desc: "Revert to Alpine 3.20 due to 1st party plugin incompatibility with Python 3.12."}
   - { date: "19.06.24:", desc: "Rebase to Alpine 3.20."}
   - { date: "20.03.24:", desc: "Rebase to Alpine 3.19."}
