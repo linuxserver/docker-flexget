@@ -302,6 +302,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **18.09.24:** - Suppress creation of empty log file when WebUI password is set.
 * **17.08.24:** - Revert to Alpine 3.20 due to 1st party plugin incompatibility with Python 3.12.
 * **19.06.24:** - Rebase to Alpine 3.20.
 * **20.03.24:** - Rebase to Alpine 3.19.

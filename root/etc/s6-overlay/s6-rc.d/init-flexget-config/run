@@ -29,7 +29,7 @@ if [[ ! -f "${FG_CONFIG_FILE}" ]]; then
 fi
 
 if [[ -n "${FG_WEBUI_PASSWORD}" ]]; then
-    if ! flexget -c "${FG_CONFIG_FILE}" --loglevel error web passwd "${FG_WEBUI_PASSWORD}" | tee /dev/stderr | grep -q 'Updated password'; then
+    if ! flexget -c "${FG_CONFIG_FILE}" --logfile "${FG_LOG_FILE:-/config/.flexget/flexget.log}" --loglevel error web passwd "${FG_WEBUI_PASSWORD}" | tee /dev/stderr | grep -q 'Updated password'; then
         echo "Halting init, please address the above issues and recreate the container"
         sleep infinity
     fi
