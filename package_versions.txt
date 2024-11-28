@@ -165,7 +165,7 @@ utmps-libs                 0.1.2.2-r0             apk
 webencodings               0.5.1                  python                   
 werkzeug                   3.0.6                  python                   
 wheel                      0.43.0                 python                   
-wheel                      0.45.0                 python                   
+wheel                      0.45.1                 python                   
 xz-libs                    5.4.5-r0               apk                      
 zc-lockfile                3.0.post1              python                   
 zipp                       3.19.2                 python                   
