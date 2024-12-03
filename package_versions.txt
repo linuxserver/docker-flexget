@@ -8,14 +8,14 @@ alpine-keys                2.4-r1                 apk
 alpine-release             3.19.4-r0              apk                      
 aniso8601                  9.0.1                  python                   
 apk-tools                  2.14.4-r0              apk                      
-apscheduler                3.10.4                 python                   
+apscheduler                3.11.0                 python                   
 attrs                      24.2.0                 python                   
 autocommand                2.2.2                  python  (+1 duplicate)   
-babelfish                  0.6.1                  python                   
+babelfish                  0.6.0                  python                   
 backports-tarfile          1.2.0                  python  (+1 duplicate)   
 bash                       5.2.21-r0              apk                      
 beautifulsoup4             4.12.3                 python                   
-blinker                    1.8.2                  python                   
+blinker                    1.9.0                  python                   
 boost1.82-python3          1.82.0-r3              apk                      
 boost1.82-system           1.82.0-r3              apk                      
 brotli                     1.1.0                  python                   
@@ -44,12 +44,12 @@ decorator                  5.1.1                  python
 deluge-client              1.10.2                 python                   
 feedparser                 6.0.11                 python                   
 findutils                  4.9.0-r5               apk                      
-flask                      3.0.3                  python                   
-flask-compress             1.15                   python                   
+flask                      3.1.0                  python                   
+flask-compress             1.17                   python                   
 flask-cors                 5.0.0                  python                   
 flask-login                0.6.3                  python                   
 flask-restx                1.3.0                  python                   
-flexget                    3.11.58                python                   
+flexget                    3.12.0                 python                   
 gdbm                       1.23-r1                apk                      
 greenlet                   3.1.1                  python                   
 guessit                    3.8.0                  python                   
@@ -58,8 +58,7 @@ icu-data-en                74.1-r0                apk
 icu-libs                   74.1-r0                apk                      
 idna                       3.10                   python                   
 importlib-metadata         8.0.0                  python                   
-importlib-resources        5.13.0                 python                   
-importlib-resources        6.4.0                  python                   
+importlib-resources        6.4.5                  python                   
 inflect                    7.3.1                  python                   
 itsdangerous               2.2.0                  python                   
 jaraco-collections         5.1.0                  python  (+1 duplicate)   
@@ -72,7 +71,7 @@ jaraco-text                4.0.0                  python
 jinja2                     3.1.4                  python                   
 jq                         1.7.1-r0               apk                      
 jsonschema                 4.23.0                 python                   
-jsonschema-specifications  2023.12.1              python                   
+jsonschema-specifications  2024.10.1              python                   
 libacl                     2.3.1-r4               apk                      
 libattr                    2.5.1-r5               apk                      
 libbase64                  0.5.0-r0               apk                      
@@ -96,7 +95,7 @@ libunistring               1.1-r2                 apk
 linux-pam                  1.5.3-r7               apk                      
 loguru                     0.7.2                  python                   
 markdown-it-py             3.0.0                  python                   
-markupsafe                 2.1.5                  python                   
+markupsafe                 3.0.2                  python                   
 mdurl                      0.1.2                  python                   
 more-itertools             10.3.0                 python                   
 more-itertools             10.5.0                 python                   
@@ -109,7 +108,7 @@ netcat-openbsd             1.226-r0               apk
 nghttp2-libs               1.58.0-r0              apk                      
 nodejs                     20.15.1-r0             apk                      
 oniguruma                  6.9.9-r0               apk                      
-packaging                  24.1                   python  (+1 duplicate)   
+packaging                  24.2                   python  (+1 duplicate)   
 pendulum                   3.0.0                  python                   
 pip                        24.3.1                 python                   
 platformdirs               4.2.2                  python                   
@@ -121,7 +120,7 @@ pyc                        3.11.10-r0             apk
 pycparser                  2.22                   python                   
 pygments                   2.18.0                 python                   
 pynzb                      0.1.0                  python                   
-pyparsing                  3.1.4                  python                   
+pyparsing                  3.2.0                  python                   
 pyrss2gen                  1.1                    python                   
 python-dateutil            2.9.0.post0            python                   
 python-telegram-bot        12.8                   python                   
@@ -130,17 +129,17 @@ python3-pyc                3.11.10-r0             apk
 python3-pycache-pyc0       3.11.10-r0             apk                      
 pytz                       2024.2                 python                   
 pyyaml                     6.0.2                  python                   
-qbittorrent-api            2024.9.67              python                   
+qbittorrent-api            2024.11.70             python                   
 readline                   8.2.1-r2               apk                      
 rebulk                     3.2.0                  python                   
 referencing                0.35.1                 python                   
 requests                   2.32.3                 python                   
 requests-toolbelt          1.0.0                  python                   
-rich                       13.9.3                 python                   
-rpds-py                    0.20.0                 python                   
+rich                       13.9.4                 python                   
+rpds-py                    0.21.0                 python                   
 rpyc                       6.0.1                  python                   
 scanelf                    1.3.7-r2               apk                      
-setuptools                 75.2.0                 python                   
+setuptools                 75.6.0                 python                   
 sgmllib3k                  1.0.0                  python                   
 shadow                     4.14.2-r0              apk                      
 six                        1.16.0                 python                   
@@ -152,7 +151,7 @@ ssl_client                 1.36.1-r19             apk
 tempora                    5.7.0                  python                   
 time-machine               2.16.0                 python                   
 tomli                      2.0.1                  python                   
-tornado                    6.4.1                  python                   
+tornado                    6.4.2                  python                   
 transmission-rpc           7.0.11                 python                   
 triangular                 2.5.0                  npm                      
 typeguard                  4.3.0                  python                   
@@ -163,7 +162,7 @@ tzlocal                    5.2                    python
 urllib3                    1.26.20                python                   
 utmps-libs                 0.1.2.2-r0             apk                      
 webencodings               0.5.1                  python                   
-werkzeug                   3.0.6                  python                   
+werkzeug                   3.1.3                  python                   
 wheel                      0.43.0                 python                   
 wheel                      0.45.1                 python                   
 xz-libs                    5.4.5-r0               apk                      
