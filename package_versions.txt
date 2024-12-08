@@ -49,7 +49,7 @@ flask-compress             1.17                   python
 flask-cors                 5.0.0                  python                   
 flask-login                0.6.3                  python                   
 flask-restx                1.3.0                  python                   
-flexget                    3.12.1                 python                   
+flexget                    3.12.2                 python                   
 gdbm                       1.23-r1                apk                      
 greenlet                   3.1.1                  python                   
 guessit                    3.8.0                  python                   
@@ -116,7 +116,7 @@ plumbum                    1.9.0                  python
 portend                    3.2.0                  python                   
 procps-ng                  4.0.4-r0               apk                      
 psutil                     6.1.0                  python                   
-pyc                        3.11.10-r0             apk                      
+pyc                        3.11.11-r0             apk                      
 pycparser                  2.22                   python                   
 pygments                   2.18.0                 python                   
 pynzb                      0.1.0                  python                   
@@ -124,9 +124,9 @@ pyparsing                  3.2.0                  python
 pyrss2gen                  1.1                    python                   
 python-dateutil            2.9.0.post0            python                   
 python-telegram-bot        12.8                   python                   
-python3                    3.11.10-r0             apk                      
-python3-pyc                3.11.10-r0             apk                      
-python3-pycache-pyc0       3.11.10-r0             apk                      
+python3                    3.11.11-r0             apk                      
+python3-pyc                3.11.11-r0             apk                      
+python3-pycache-pyc0       3.11.11-r0             apk                      
 pytz                       2024.2                 python                   
 pyyaml                     6.0.2                  python                   
 qbittorrent-api            2024.11.70             python                   
