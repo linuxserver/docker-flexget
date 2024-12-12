@@ -7,6 +7,7 @@ alpine-baselayout-data     3.4.3-r2               apk
 alpine-keys                2.4-r1                 apk                      
 alpine-release             3.19.4-r0              apk                      
 aniso8601                  9.0.1                  python                   
+anyio                      4.7.0                  python                   
 apk-tools                  2.14.4-r0              apk                      
 apscheduler                3.11.0                 python                   
 attrs                      24.2.0                 python                   
@@ -27,7 +28,6 @@ ca-certificates            20240226-r0            apk
 ca-certificates-bundle     20240226-r0            apk                      
 catatonit                  0.2.0-r0               apk                      
 certifi                    2024.8.30              python                   
-cffi                       1.17.1                 python                   
 charset-normalizer         3.4.0                  python                   
 cheroot                    10.0.1                 python                   
 cherrypy                   18.10.0                python                   
@@ -38,9 +38,7 @@ coreutils                  9.4-r2                 apk
 coreutils-env              9.4-r2                 apk                      
 coreutils-fmt              9.4-r2                 apk                      
 coreutils-sha512sum        9.4-r2                 apk                      
-cryptography               43.0.3                 python                   
 curl                       8.9.1-r0               apk                      
-decorator                  5.1.1                  python                   
 deluge-client              1.10.2                 python                   
 feedparser                 6.0.11                 python                   
 findutils                  4.9.0-r5               apk                      
@@ -49,11 +47,14 @@ flask-compress             1.17                   python
 flask-cors                 5.0.0                  python                   
 flask-login                0.6.3                  python                   
 flask-restx                1.3.0                  python                   
-flexget                    3.12.4                 python                   
+flexget                    3.13.0                 python                   
 gdbm                       1.23-r1                apk                      
 greenlet                   3.1.1                  python                   
 guessit                    3.8.0                  python                   
+h11                        0.14.0                 python                   
 html5lib                   1.1                    python                   
+httpcore                   1.0.7                  python                   
+httpx                      0.28.1                 python                   
 icu-data-en                74.1-r0                apk                      
 icu-libs                   74.1-r0                apk                      
 idna                       3.10                   python                   
@@ -117,13 +118,12 @@ portend                    3.2.0                  python
 procps-ng                  4.0.4-r0               apk                      
 psutil                     6.1.0                  python                   
 pyc                        3.11.11-r0             apk                      
-pycparser                  2.22                   python                   
 pygments                   2.18.0                 python                   
 pynzb                      0.1.0                  python                   
 pyparsing                  3.2.0                  python                   
 pyrss2gen                  1.1                    python                   
 python-dateutil            2.9.0.post0            python                   
-python-telegram-bot        12.8                   python                   
+python-telegram-bot        21.9                   python                   
 python3                    3.11.11-r0             apk                      
 python3-pyc                3.11.11-r0             apk                      
 python3-pycache-pyc0       3.11.11-r0             apk                      
@@ -144,6 +144,8 @@ sgmllib3k                  1.0.0                  python
 shadow                     4.14.2-r0              apk                      
 six                        1.17.0                 python                   
 skalibs                    2.14.0.1-r0            apk                      
+sniffio                    1.3.1                  python                   
+socksio                    1.0.0                  python                   
 soupsieve                  2.6                    python                   
 sqlalchemy                 2.0.36                 python                   
 sqlite-libs                3.44.2-r0              apk                      
@@ -151,7 +153,6 @@ ssl_client                 1.36.1-r19             apk
 tempora                    5.7.0                  python                   
 time-machine               2.16.0                 python                   
 tomli                      2.0.1                  python                   
-tornado                    6.4.2                  python                   
 transmission-rpc           7.0.11                 python                   
 triangular                 2.5.0                  npm                      
 typeguard                  4.3.0                  python                   
