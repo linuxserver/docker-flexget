@@ -49,11 +49,11 @@ RUN \
   pip install -U --no-cache-dir \
     pip \
     wheel && \
-  pip install -U --no-cache --find-links https://wheel-index.linuxserver.io/alpine-3.20/ \
+  pip install -U --no-cache --find-links https://wheel-index.linuxserver.io/alpine-3.19/ \
     click \
     flexget==${FLEXGET_VERSION#v} \
     requests \
-    -r requirements-docker.txt && \
+    -r requirements.txt && \
   printf "Linuxserver.io version: ${VERSION}\nBuild-date: ${BUILD_DATE}" > /build_version && \
   echo "**** cleanup ****" && \
   apk del --purge \
