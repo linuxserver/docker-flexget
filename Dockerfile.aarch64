@@ -40,7 +40,7 @@ RUN \
   mkdir -p /data && \
   curl -o \
     /tmp/flexget.tar.gz -L \
-    "https://github.com/flexget/flexget/releases/download/${FLEXGET_VERSION}/FlexGet-${FLEXGET_VERSION#v}.tar.gz" && \
+    "https://github.com/Flexget/Flexget/archive/refs/tags/${FLEXGET_VERSION}.tar.gz" && \
   tar xf \
     /tmp/flexget.tar.gz -C \
     /tmp/flexget --strip-components=1 && \
@@ -53,7 +53,10 @@ RUN \
     click \
     flexget==${FLEXGET_VERSION#v} \
     requests \
-    -r requirements.txt && \
+    -r requirements.txt \
+    -r ./requirements/deluge.txt \
+    -r ./requirements/qbittorrent.txt \
+    -r ./requirements/transmission.txt && \
   printf "Linuxserver.io version: ${VERSION}\nBuild-date: ${BUILD_DATE}" > /build_version && \
   echo "**** cleanup ****" && \
   apk del --purge \
