@@ -56,6 +56,7 @@ RUN \
     -r requirements.txt \
     -r ./requirements/deluge.txt \
     -r ./requirements/qbittorrent.txt \
+    -r ./requirements/telegram.txt \
     -r ./requirements/transmission.txt && \
   printf "Linuxserver.io version: ${VERSION}\nBuild-date: ${BUILD_DATE}" > /build_version && \
   echo "**** cleanup ****" && \
