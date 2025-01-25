@@ -46,7 +46,7 @@ flask-compress             1.17                   python
 flask-cors                 5.0.0                  python                   
 flask-login                0.6.3                  python                   
 flask-restx                1.3.0                  python                   
-flexget                    3.13.23                python                   
+flexget                    3.13.24                python                   
 gdbm                       1.23-r1                apk                      
 greenlet                   3.1.1                  python                   
 guessit                    3.8.0                  python                   
