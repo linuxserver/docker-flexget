@@ -6,6 +6,8 @@ FROM ghcr.io/by275/libtorrent:2-alpine3.19 AS libtorrent
 
 FROM ghcr.io/linuxserver/baseimage-alpine:3.19
 
+COPY --from=ghcr.io/astral-sh/uv:0.5.26 /uv /uvx /bin/
+
 # set version label
 ARG BUILD_DATE
 ARG VERSION
@@ -16,7 +18,10 @@ LABEL maintainer="thespad"
 # environment settings
 ENV HOME="/config" \
   PYTHONIOENCODING=utf-8 \
-  TMPDIR=/run/flexget-temp
+  TMPDIR=/run/flexget-temp \
+  UV_PROJECT_ENVIRONMENT=/lsiopy \
+  UV_COMPILE_BYTECODE=1 \
+  UV_LINK_MODE=copy
 
 RUN \
   echo "**** install packages ****" && \
@@ -36,28 +41,18 @@ RUN \
     FLEXGET_VERSION=$(curl -s https://api.github.com/repos/flexget/flexget/releases/latest \
     | awk '/tag_name/{print $4;exit}' FS='[""]'); \
   fi && \
-  mkdir -p /tmp/flexget && \
-  mkdir -p /data && \
+  mkdir -p /run/flexget-temp /data && \
+  mkdir -p /app/flexget && \
   curl -o \
     /tmp/flexget.tar.gz -L \
     "https://github.com/Flexget/Flexget/archive/refs/tags/${FLEXGET_VERSION}.tar.gz" && \
   tar xf \
     /tmp/flexget.tar.gz -C \
-    /tmp/flexget --strip-components=1 && \
-  cd /tmp/flexget && \
-  python3 -m venv /lsiopy && \
-  pip install -U --no-cache-dir \
-    pip \
-    wheel && \
-  pip install -U --no-cache --find-links https://wheel-index.linuxserver.io/alpine-3.19/ \
-    click \
-    flexget==${FLEXGET_VERSION#v} \
-    requests \
-    -r requirements.txt \
-    -r ./requirements/deluge.txt \
-    -r ./requirements/qbittorrent.txt \
-    -r ./requirements/telegram.txt \
-    -r ./requirements/transmission.txt && \
+    /app/flexget --strip-components=1 && \
+  cd /app/flexget && \
+  uv venv /lsiopy && \
+  uv run bundle_webui.py && \
+  uv sync --frozen --no-dev --no-cache --group=all && \
   printf "Linuxserver.io version: ${VERSION}\nBuild-date: ${BUILD_DATE}" > /build_version && \
   echo "**** cleanup ****" && \
   apk del --purge \
