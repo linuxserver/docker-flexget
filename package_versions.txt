@@ -103,7 +103,7 @@ mdurl                      0.1.2                  python
 more-itertools             10.3.0                 python                  
 more-itertools             10.6.0                 python                  
 mpdecimal                  2.5.1-r2               apk                     
-musl                       1.2.4_git20230717-r4   apk                     
+musl                       1.2.4_git20230717-r5   apk                     
 musl-utils                 1.2.4_git20230717-r4   apk                     
 my-test-package            1.0                    python                  
 ncurses-terminfo-base      6.4_p20231125-r0       apk                     
