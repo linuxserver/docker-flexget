@@ -51,7 +51,7 @@ RUN \
     /app/flexget --strip-components=1 && \
   cd /app/flexget && \
   uv venv /lsiopy && \
-  uv run bundle_webui.py && \
+  uv run scripts/bundle_webui.py && \
   uv sync --frozen --no-dev --no-cache --group=all && \
   printf "Linuxserver.io version: ${VERSION}\nBuild-date: ${BUILD_DATE}" > /build_version && \
   echo "**** cleanup ****" && \
