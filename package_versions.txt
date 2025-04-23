@@ -5,7 +5,7 @@ alpine-baselayout          3.4.3-r2               apk
 alpine-baselayout-data     3.4.3-r2               apk                     
 alpine-keys                2.4-r1                 apk                     
 alpine-release             3.19.7-r0              apk                     
-aniso8601                  10.0.0                 python                  
+aniso8601                  10.0.1                 python                  
 anyio                      4.9.0                  python                  
 apk-tools                  2.14.4-r0              apk                     
 apscheduler                3.11.0                 python                  
@@ -14,7 +14,7 @@ autocommand                2.2.2                  python  (+1 duplicate)
 babelfish                  0.6.1                  python                  
 backports-tarfile          1.2.0                  python  (+1 duplicate)  
 bash                       5.2.21-r0              apk                     
-beautifulsoup4             4.13.3                 python                  
+beautifulsoup4             4.13.4                 python                  
 blinker                    1.9.0                  python                  
 boost1.82-python3          1.82.0-r3              apk                     
 boost1.82-system           1.82.0-r3              apk                     
@@ -44,9 +44,9 @@ flask-compress             1.17                   python
 flask-cors                 5.0.1                  python                  
 flask-login                0.6.3                  python                  
 flask-restx                1.3.0                  python                  
-flexget                    3.15.34                python                  
+flexget                    3.15.37                python                  
 gdbm                       1.23-r1                apk                     
-greenlet                   3.1.1                  python                  
+greenlet                   3.2.0                  python                  
 guessit                    3.8.0                  python                  
 h11                        0.14.0                 python                  
 h2                         4.2.0                  python                  
@@ -110,8 +110,9 @@ netcat-openbsd             1.226-r0               apk
 nghttp2-libs               1.58.0-r0              apk                     
 nodejs                     20.15.1-r0             apk                     
 oniguruma                  6.9.9-r0               apk                     
-packaging                  24.2                   python  (+1 duplicate)  
-pendulum                   3.0.0                  python                  
+packaging                  24.2                   python                  
+packaging                  25.0                   python                  
+pendulum                   3.1.0                  python                  
 platformdirs               4.2.2                  python                  
 plumbum                    1.9.0                  python                  
 portend                    3.2.0                  python                  
@@ -129,28 +130,27 @@ python3-pyc                3.11.12-r0             apk
 python3-pycache-pyc0       3.11.12-r0             apk                     
 pytz                       2025.2                 python                  
 pyyaml                     6.0.2                  python                  
-qbittorrent-api            2025.2.0               python                  
+qbittorrent-api            2025.4.0               python                  
 readline                   8.2.1-r2               apk                     
 rebulk                     3.2.0                  python                  
 referencing                0.36.2                 python                  
 requests                   2.32.3                 python                  
 rich                       14.0.0                 python                  
 rpds-py                    0.24.0                 python                  
-rpyc                       6.0.1                  python                  
+rpyc                       6.0.2                  python                  
 scanelf                    1.3.7-r2               apk                     
-setuptools                 78.1.0                 python                  
+setuptools                 79.0.0                 python                  
 sgmllib3k                  1.0.0                  python                  
 shadow                     4.14.2-r0              apk                     
 six                        1.17.0                 python                  
 skalibs                    2.14.0.1-r0            apk                     
 sniffio                    1.3.1                  python                  
 socksio                    1.0.0                  python                  
-soupsieve                  2.6                    python                  
+soupsieve                  2.7                    python                  
 sqlalchemy                 2.0.40                 python                  
 sqlite-libs                3.44.2-r1              apk                     
 ssl_client                 1.36.1-r19             apk                     
 tempora                    5.8.0                  python                  
-time-machine               2.16.0                 python                  
 tomli                      2.0.1                  python                  
 transmission-rpc           7.0.11                 python                  
 triangular                 2.5.0                  npm                     
