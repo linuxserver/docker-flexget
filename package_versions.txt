@@ -48,7 +48,7 @@ flask-compress             1.18                   python
 flask-cors                 6.0.1                  python                  
 flask-login                0.6.3                  python                  
 flask-restx                1.3.0                  python                  
-flexget                    3.16.15                python                  
+flexget                    3.17.0                 python                  
 gdbm                       1.23-r1                apk                     
 greenlet                   3.2.3                  python                  
 guessit                    3.8.0                  python                  
@@ -170,7 +170,7 @@ typing-extensions          4.14.1                 python
 tzdata                     2025.2                 python                  
 tzdata                     2025b-r0               apk                     
 tzlocal                    5.3.1                  python                  
-urllib3                    1.26.20                python                  
+urllib3                    2.5.0                  python                  
 utmps-libs                 0.1.2.2-r0             apk                     
 webencodings               0.5.1                  python                  
 werkzeug                   3.1.3                  python                  
