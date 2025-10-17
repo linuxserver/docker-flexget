@@ -53,6 +53,7 @@ RUN \
   uv venv /lsiopy && \
   uv run scripts/bundle_webui.py && \
   uv sync --frozen --no-dev --no-cache --group=all && \
+  uv pip install pip && \
   printf "Linuxserver.io version: ${VERSION}\nBuild-date: ${BUILD_DATE}" > /build_version && \
   echo "**** cleanup ****" && \
   apk del --purge \
