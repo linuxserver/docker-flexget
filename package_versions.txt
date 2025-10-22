@@ -4,7 +4,7 @@ Simple Launcher            1.1.0.14               binary  (+5 duplicates)
 ada-libs                   2.7.4-r0               apk                      
 aiofiles                   24.1.0                 python                   
 aiohappyeyeballs           2.6.1                  python                   
-aiohttp                    3.13.0                 python                   
+aiohttp                    3.13.1                 python                   
 aiohttp-socks              0.10.1                 python                   
 aiosignal                  1.4.0                  python                   
 alpine-baselayout          3.4.3-r2               apk                      
@@ -19,14 +19,15 @@ attrs                      25.4.0                 python
 autocommand                2.2.2                  python  (+1 duplicate)   
 babelfish                  0.6.1                  python                   
 backports-tarfile          1.2.0                  python  (+1 duplicate)   
+backports-zstd             1.0.0                  python                   
 bash                       5.2.21-r0              apk                      
 bcrypt                     5.0.0                  python                   
 beautifulsoup4             4.14.2                 python                   
 blinker                    1.9.0                  python                   
 boost1.82-python3          1.82.0-r3              apk                      
 boost1.82-system           1.82.0-r3              apk                      
-boto3                      1.40.50                python                   
-botocore                   1.40.50                python                   
+boto3                      1.40.56                python                   
+botocore                   1.40.56                python                   
 brotli                     1.1.0                  python                   
 brotli-libs                1.1.0-r1               apk                      
 busybox                    1.36.1-r20             apk                      
@@ -38,7 +39,7 @@ catatonit                  0.2.0-r0               apk
 certifi                    2025.10.5              python                   
 cffi                       2.0.0                  python                   
 chardet                    5.2.0                  python                   
-charset-normalizer         3.4.3                  python                   
+charset-normalizer         3.4.4                  python                   
 cheroot                    11.0.0                 python                   
 cherrypy                   18.10.0                python                   
 cli                        UNKNOWN                binary                   
@@ -51,7 +52,7 @@ coreutils                  9.4-r2                 apk
 coreutils-env              9.4-r2                 apk                      
 coreutils-fmt              9.4-r2                 apk                      
 coreutils-sha512sum        9.4-r2                 apk                      
-cryptography               46.0.2                 python                   
+cryptography               46.0.3                 python                   
 curl                       8.14.1-r2              apk                      
 decorator                  5.2.1                  python                   
 deluge-client              1.10.2                 python                   
@@ -60,11 +61,11 @@ enzyme                     0.5.2                  python
 feedparser                 6.0.12                 python                   
 findutils                  4.9.0-r5               apk                      
 flask                      3.1.2                  python                   
-flask-compress             1.18                   python                   
+flask-compress             1.20                   python                   
 flask-cors                 6.0.1                  python                   
 flask-login                0.6.3                  python                   
 flask-restx                1.3.2                  python                   
-flexget                    3.18.16                python                   
+flexget                    3.18.17                python                   
 frozenlist                 1.8.0                  python                   
 ftputil                    5.1.0                  python                   
 gdbm                       1.23-r1                apk                      
@@ -153,7 +154,7 @@ plumbum                    1.9.0                  python
 portend                    3.2.1                  python                   
 procps-ng                  4.0.4-r0               apk                      
 propcache                  0.4.1                  python                   
-psutil                     7.1.0                  python                   
+psutil                     7.1.1                  python                   
 pyc                        3.11.14-r0             apk                      
 pycparser                  2.23                   python                   
 pycryptodome               3.23.0                 python                   
@@ -171,12 +172,11 @@ python3                    3.11.14-r0             apk
 python3-pyc                3.11.14-r0             apk                      
 python3-pycache-pyc0       3.11.14-r0             apk                      
 pyyaml                     6.0.3                  python                   
-pyzstd                     0.18.0                 python                   
 qbittorrent-api            2025.7.0               python                   
 rarfile                    4.2                    python                   
 readline                   8.2.1-r2               apk                      
 rebulk                     3.2.0                  python                   
-referencing                0.36.2                 python                   
+referencing                0.37.0                 python                   
 requests                   2.32.5                 python                   
 rich                       14.2.0                 python                   
 rpds-py                    0.27.1                 python                   
