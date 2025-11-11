@@ -31,8 +31,8 @@ RUN \
     python3-dev && \
   apk add  -U --update --no-cache \
     7zip \
-    boost1.82-system \
-    boost1.82-python3 \
+    boost1.84-system \
+    boost1.84-python3 \
     libstdc++ \
     nodejs \
     python3 && \
