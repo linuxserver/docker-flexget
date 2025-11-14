@@ -92,6 +92,7 @@ init_diagram: |
   "flexget:latest" <- Base Images
 # changelog
 changelogs:
+  - {date: "10.11.25:", desc: "Rebase to Alpine 3.22."}
   - {date: "17.10.25:", desc: "Add pip to enable [universal-package-install mod](https://github.com/linuxserver/docker-mods/tree/universal-package-install)."}
   - {date: "18.09.24:", desc: "Suppress creation of empty log file when WebUI password is set."}
   - {date: "17.08.24:", desc: "Revert to Alpine 3.20 due to 1st party plugin incompatibility with Python 3.12."}
