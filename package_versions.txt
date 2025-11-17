@@ -27,8 +27,8 @@ beautifulsoup4             4.14.2            python
 blinker                    1.9.0             python                   
 boost1.84-python3          1.84.0-r3         apk                      
 boost1.84-system           1.84.0-r3         apk                      
-boto3                      1.40.69           python                   
-botocore                   1.40.69           python                   
+boto3                      1.40.74           python                   
+botocore                   1.40.74           python                   
 brotli                     1.2.0             python                   
 brotli-libs                1.1.0-r2          apk                      
 busybox                    1.37.0-r19        apk                      
@@ -37,7 +37,7 @@ c-ares                     1.34.5-r0         apk
 ca-certificates            20250911-r0       apk                      
 ca-certificates-bundle     20250911-r0       apk                      
 catatonit                  0.2.1-r0          apk                      
-certifi                    2025.10.5         python                   
+certifi                    2025.11.12        python                   
 cffi                       2.0.0             python                   
 chardet                    5.2.0             python                   
 charset-normalizer         3.4.4             python                   
@@ -47,7 +47,7 @@ cli                        UNKNOWN           binary
 cli-32                     UNKNOWN           binary                   
 cli-64                     UNKNOWN           binary                   
 cli-arm64                  UNKNOWN           binary                   
-click                      8.3.0             python                   
+click                      8.3.1             python                   
 click-option-group         0.5.9             python                   
 coreutils                  9.7-r1            apk                      
 coreutils-env              9.7-r1            apk                      
@@ -66,7 +66,7 @@ flask-compress             1.23              python
 flask-cors                 6.0.1             python                   
 flask-login                0.6.3             python                   
 flask-restx                1.3.2             python                   
-flexget                    3.18.23           python                   
+flexget                    3.18.24           python                   
 frozenlist                 1.8.0             python                   
 ftputil                    5.1.0             python                   
 gdbm                       1.24-r0           apk                      
@@ -157,7 +157,7 @@ pyc                        3.12.12-r0        apk
 pycparser                  2.23              python                   
 pycryptodome               3.23.0            python                   
 pygments                   2.19.2            python                   
-pynacl                     1.6.0             python                   
+pynacl                     1.6.1             python                   
 pynzb                      0.1.0             python                   
 pyparsing                  3.2.5             python                   
 pyrss2gen                  1.1               python                   
@@ -170,14 +170,14 @@ python3                    3.12.12-r0        apk
 python3-pyc                3.12.12-r0        apk                      
 python3-pycache-pyc0       3.12.12-r0        apk                      
 pyyaml                     6.0.3             python                   
-qbittorrent-api            2025.7.0          python                   
+qbittorrent-api            2025.11.0         python                   
 rarfile                    4.2               python                   
 readline                   8.2.13-r1         apk                      
 rebulk                     3.2.0             python                   
 referencing                0.37.0            python                   
 requests                   2.32.5            python                   
 rich                       14.2.0            python                   
-rpds-py                    0.28.0            python                   
+rpds-py                    0.29.0            python                   
 rpyc                       6.0.2             python                   
 s3transfer                 0.14.0            python                   
 scanelf                    1.3.8-r1          apk                      
