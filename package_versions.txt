@@ -20,15 +20,15 @@ attrs                      25.4.0            python
 autocommand                2.2.2             python  (+1 duplicate)   
 babelfish                  0.6.1             python                   
 backports-tarfile          1.2.0             python                   
-backports-zstd             1.1.0             python                   
+backports-zstd             1.2.0             python                   
 bash                       5.2.37-r0         apk                      
 bcrypt                     5.0.0             python                   
 beautifulsoup4             4.14.3            python                   
 blinker                    1.9.0             python                   
 boost1.84-python3          1.84.0-r3         apk                      
 boost1.84-system           1.84.0-r3         apk                      
-boto3                      1.42.0            python                   
-botocore                   1.41.6            python                   
+boto3                      1.42.4            python                   
+botocore                   1.42.4            python                   
 brotli                     1.2.0             python                   
 brotli-libs                1.1.0-r2          apk                      
 busybox                    1.37.0-r20        apk                      
@@ -66,11 +66,11 @@ flask-compress             1.23              python
 flask-cors                 6.0.1             python                   
 flask-login                0.6.3             python                   
 flask-restx                1.3.2             python                   
-flexget                    3.18.29           python                   
+flexget                    3.18.30           python                   
 frozenlist                 1.8.0             python                   
 ftputil                    5.1.0             python                   
 gdbm                       1.24-r0           apk                      
-greenlet                   3.2.4             python                   
+greenlet                   3.3.0             python                   
 guessit                    3.8.0             python                   
 gui                        UNKNOWN           binary                   
 gui-32                     UNKNOWN           binary                   
@@ -146,7 +146,7 @@ paramiko                   3.5.1             python
 pendulum                   3.1.0             python                   
 pip                        25.3              python                   
 platformdirs               4.2.2             python                   
-platformdirs               4.5.0             python                   
+platformdirs               4.5.1             python                   
 plexapi                    4.17.2            python                   
 plumbum                    1.10.0            python                   
 portend                    3.2.1             python                   
@@ -208,7 +208,7 @@ tzdata                     2025.2            python
 tzdata                     2025b-r0          apk                      
 tzlocal                    5.3.1             python                   
 unpaddedbase64             2.1.0             python                   
-urllib3                    2.5.0             python                   
+urllib3                    2.6.0             python                   
 utmps-libs                 0.1.3.1-r0        apk                      
 webencodings               0.5.1             python                   
 werkzeug                   3.1.4             python                   
