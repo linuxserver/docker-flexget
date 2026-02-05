@@ -104,7 +104,7 @@ libbsd                     0.12.2-r0         apk
 libbz2                     1.0.8-r6          apk                      
 libcrypto3                 3.5.5-r0          apk                      
 libcurl                    8.14.1-r2         apk                      
-libexpat                   2.7.3-r0          apk                      
+libexpat                   2.7.4-r0          apk                      
 libffi                     3.4.8-r0          apk                      
 libgcc                     14.2.0-r6         apk                      
 libidn2                    2.3.7-r0          apk                      
@@ -138,7 +138,7 @@ packaging                  25.0              python
 packaging                  26.0              python                   
 paramiko                   3.5.1             python                   
 pendulum                   3.2.0             python                   
-pip                        26.0              python                   
+pip                        26.0.1            python                   
 platformdirs               4.4.0             python                   
 platformdirs               4.5.1             python                   
 plexapi                    4.18.0            python                   
