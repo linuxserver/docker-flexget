@@ -62,12 +62,12 @@ dogpile-cache              1.5.0             python
 enzyme                     0.5.2             python                   
 feedparser                 6.0.12            python                   
 findutils                  4.10.0-r0         apk                      
-flask                      3.1.2             python                   
+flask                      3.1.3             python                   
 flask-compress             1.23              python                   
 flask-cors                 6.0.2             python                   
 flask-login                0.6.3             python                   
 flask-restx                1.3.2             python                   
-flexget                    3.18.49           python                   
+flexget                    3.18.50           python                   
 frozenlist                 1.8.0             python                   
 ftputil                    5.1.0             python                   
 gdbm                       1.24-r0           apk                      
