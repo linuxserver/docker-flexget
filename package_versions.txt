@@ -67,7 +67,7 @@ flask-compress             1.23              python
 flask-cors                 6.0.2             python                   
 flask-login                0.6.3             python                   
 flask-restx                1.3.2             python                   
-flexget                    3.18.50           python                   
+flexget                    3.18.51           python                   
 frozenlist                 1.8.0             python                   
 ftputil                    5.1.0             python                   
 gdbm                       1.24-r0           apk                      
@@ -205,7 +205,7 @@ unpaddedbase64             2.1.0             python
 urllib3                    2.6.3             python                   
 utmps-libs                 0.1.3.1-r0        apk                      
 webencodings               0.5.1             python                   
-werkzeug                   3.1.5             python                   
+werkzeug                   3.1.6             python                   
 wheel                      0.46.3            python                   
 xz-libs                    5.8.1-r0          apk                      
 yarl                       1.22.0            python                   
