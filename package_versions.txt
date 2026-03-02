@@ -57,6 +57,7 @@ coreutils-sha512sum        9.7-r1            apk
 cryptography               46.0.5            python                   
 curl                       8.14.1-r2         apk                      
 decorator                  5.2.1             python                   
+defusedxml                 0.7.1             python                   
 deluge-client              1.10.2            python                   
 dogpile-cache              1.5.0             python                   
 enzyme                     0.5.2             python                   
@@ -67,7 +68,7 @@ flask-compress             1.23              python
 flask-cors                 6.0.2             python                   
 flask-login                0.6.3             python                   
 flask-restx                1.3.2             python                   
-flexget                    3.18.52           python                   
+flexget                    3.18.53           python                   
 frozenlist                 1.8.0             python                   
 ftputil                    5.1.0             python                   
 gdbm                       1.24-r0           apk                      
@@ -100,6 +101,7 @@ jmespath                   1.1.0             python
 jq                         1.8.1-r0          apk                      
 jsonschema                 4.26.0            python                   
 jsonschema-specifications  2025.9.1          python                   
+knowit                     0.5.11            python                   
 libapk2                    2.14.9-r3         apk                      
 libattr                    2.5.2-r2          apk                      
 libbsd                     0.12.2-r0         apk                      
@@ -151,6 +153,7 @@ pyc                        3.12.12-r0        apk
 pycparser                  3.0               python                   
 pycryptodome               3.23.0            python                   
 pygments                   2.19.2            python                   
+pymediainfo                7.0.1             python                   
 pynacl                     1.6.2             python                   
 pynzb                      0.1.0             python                   
 pyparsing                  3.3.2             python                   
@@ -190,9 +193,11 @@ sqlite-libs                3.49.2-r1         apk
 srt                        3.5.3             python                   
 ssl_client                 1.37.0-r20        apk                      
 stevedore                  5.6.0             python                   
-subliminal                 2.2.1             python                   
+subliminal                 2.6.0             python                   
 tempora                    5.8.1             python                   
-tomli                      2.4.0             python  (+1 duplicate)   
+tomli                      2.4.0             python                   
+tomlkit                    0.14.0            python                   
+trakit                     0.2.5             python                   
 transmission-rpc           7.0.11            python                   
 triangular                 2.5.0             npm                      
 typer                      0.23.1            python                   
