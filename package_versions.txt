@@ -143,7 +143,7 @@ packaging                  26.0              python
 packaging                  26.2              python                   
 paramiko                   3.5.1             python                   
 pendulum                   3.2.0             python                   
-pip                        26.1              python                   
+pip                        26.1.1            python                   
 platformdirs               4.4.0             python                   
 platformdirs               4.9.6             python                   
 plexapi                    4.18.1            python                   
