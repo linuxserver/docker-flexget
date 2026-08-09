@@ -56,6 +56,7 @@ coreutils-fmt              9.7-r1            apk
 coreutils-sha512sum        9.7-r1            apk                      
 cryptography               50.0.0            python                   
 curl                       8.14.1-r3         apk                      
+curl-cffi                  0.16.0            python                   
 decorator                  5.3.1             python                   
 defusedxml                 0.7.1             python                   
 deluge-client              1.10.2            python                   
@@ -69,7 +70,7 @@ flask-compress             1.24              python
 flask-cors                 6.0.5             python                   
 flask-login                0.6.3             python                   
 flask-restx                1.3.2             python                   
-flexget                    3.20.2            python                   
+flexget                    3.20.3            python                   
 frozenlist                 1.8.0             python                   
 ftputil                    5.2.0             python                   
 gdbm                       1.24-r0           apk                      
@@ -163,6 +164,7 @@ pynacl                     1.6.2             python
 pynzb                      0.1.0             python                   
 pyparsing                  3.3.2             python                   
 pyrss2gen                  1.1               python                   
+pyscrypt                   1.6.2             python                   
 pysftp                     0.2.9             python                   
 pysubs2                    1.8.1             python                   
 python-dateutil            2.9.0.post0       python                   
