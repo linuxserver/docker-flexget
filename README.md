@@ -300,6 +300,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **15.08.26:** - Rebase to Alpine 3.24.
 * **10.11.25:** - Rebase to Alpine 3.22.
 * **17.10.25:** - Add pip to enable [universal-package-install mod](https://github.com/linuxserver/docker-mods/tree/universal-package-install).
 * **18.09.24:** - Suppress creation of empty log file when WebUI password is set.
