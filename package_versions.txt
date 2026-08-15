@@ -155,7 +155,7 @@ portend                    3.2.1             python
 procps-ng                  4.0.4-r3          apk                      
 propcache                  0.5.2             python                   
 psutil                     7.2.2             python                   
-pyc                        3.12.13-r0        apk                      
+pyc                        3.12.14-r0        apk                      
 pycparser                  3.0               python                   
 pycryptodome               3.23.0            python                   
 pygments                   2.20.0            python                   
@@ -170,9 +170,9 @@ pysubs2                    1.8.1             python
 python-dateutil            2.9.0.post0       python                   
 python-socks               2.8.2             python                   
 python-telegram-bot        22.8              python                   
-python3                    3.12.13-r0        apk                      
-python3-pyc                3.12.13-r0        apk                      
-python3-pycache-pyc0       3.12.13-r0        apk                      
+python3                    3.12.14-r0        apk                      
+python3-pyc                3.12.14-r0        apk                      
+python3-pycache-pyc0       3.12.14-r0        apk                      
 pyyaml                     6.0.3             python                   
 qbittorrent-api            2026.8.0          python                   
 rarfile                    4.5               python                   
