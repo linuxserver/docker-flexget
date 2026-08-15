@@ -35,7 +35,8 @@ RUN \
     boost1.84-python3 \
     libstdc++ \
     nodejs \
-    python3 && \
+    python3 \
+    zstd && \
   echo "**** install flexget ****" && \
   if [ -z ${FLEXGET_VERSION+x} ]; then \
     FLEXGET_VERSION=$(curl -s https://api.github.com/repos/flexget/flexget/releases/latest \
