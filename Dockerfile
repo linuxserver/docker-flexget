@@ -39,7 +39,7 @@ RUN \
   echo "**** install flexget ****" && \
   if [ -z ${FLEXGET_VERSION+x} ]; then \
     FLEXGET_VERSION=$(curl -s https://api.github.com/repos/flexget/flexget/releases/latest \
-    | awk '/tag_name/{print $4;exit}' FS='[""]'); \
+    | jq -r '.tag_name'); \
   fi && \
   mkdir -p /run/flexget-temp /data && \
   mkdir -p /app/flexget && \
