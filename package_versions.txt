@@ -1,227 +1,733 @@
-NAME                       VERSION           TYPE                    
-7zip                       24.09-r0          apk                      
-Simple Launcher            1.1.0.14          binary  (+5 duplicates)  
-acl-libs                   2.3.2-r1          apk                      
-ada-libs                   2.9.2-r4          apk                      
-aiofiles                   25.1.0            python                   
-aiohappyeyeballs           2.7.1             python                   
-aiohttp                    3.14.3            python                   
-aiohttp-socks              0.11.0            python                   
-aiosignal                  1.4.0             python                   
-alpine-baselayout          3.7.0-r0          apk                      
-alpine-baselayout-data     3.7.0-r0          apk                      
-alpine-keys                2.5-r0            apk                      
-alpine-release             3.22.5-r0         apk                      
-aniso8601                  10.0.1            python                   
-annotated-doc              0.0.5             python                   
-anyio                      4.14.2            python                   
-apk-tools                  2.14.10-r0        apk                      
-apscheduler                3.11.3            python                   
-attrs                      26.1.0            python                   
-autocommand                2.2.2             python                   
-babelfish                  0.6.1             python                   
-backports-tarfile          1.2.0             python                   
-backports-zstd             1.6.0             python                   
-bash                       5.2.37-r0         apk                      
-bcrypt                     5.0.0             python                   
-beautifulsoup4             4.15.0            python                   
-blinker                    1.9.0             python                   
-boost1.84-python3          1.84.0-r3         apk                      
-boost1.84-system           1.84.0-r3         apk                      
-boto3                      1.43.67           python                   
-botocore                   1.43.67           python                   
-brotli                     1.2.0             python                   
-brotli-libs                1.1.0-r2          apk                      
-busybox                    1.37.0-r20        apk                      
-busybox-binsh              1.37.0-r20        apk                      
-c-ares                     1.34.8-r0         apk                      
-ca-certificates            20260611-r0       apk                      
-ca-certificates-bundle     20260611-r0       apk                      
-catatonit                  0.2.1-r0          apk                      
-certifi                    2026.7.22         python                   
-cffi                       2.1.1             python                   
-chardet                    7.5.1             python                   
-charset-normalizer         3.4.9             python                   
-cheroot                    11.1.2            python                   
-cherrypy                   18.10.0           python                   
-cli                        UNKNOWN           binary                   
-cli-32                     UNKNOWN           binary                   
-cli-64                     UNKNOWN           binary                   
-cli-arm64                  UNKNOWN           binary                   
-click                      8.4.2             python                   
-click-option-group         0.5.9             python                   
-coreutils                  9.7-r1            apk                      
-coreutils-env              9.7-r1            apk                      
-coreutils-fmt              9.7-r1            apk                      
-coreutils-sha512sum        9.7-r1            apk                      
-cryptography               50.0.0            python                   
-curl                       8.14.1-r3         apk                      
-curl-cffi                  0.16.0            python                   
-decorator                  5.3.1             python                   
-defusedxml                 0.7.1             python                   
-deluge-client              1.10.2            python                   
-dogpile-cache              1.5.0             python                   
-enzyme                     0.5.2             python                   
-feedparser                 6.0.14            python                   
-feedparser-sgmllib         2.1.0             python                   
-findutils                  4.10.0-r0         apk                      
-flask                      3.1.3             python                   
-flask-compress             1.24              python                   
-flask-cors                 6.0.5             python                   
-flask-login                0.6.3             python                   
-flask-restx                1.3.2             python                   
-flexget                    3.20.5            python                   
-frozenlist                 1.8.0             python                   
-ftputil                    5.2.0             python                   
-gdbm                       1.24-r0           apk                      
-greenlet                   3.5.4             python                   
-guessit                    3.8.0             python                   
-gui                        UNKNOWN           binary                   
-gui-32                     UNKNOWN           binary                   
-gui-64                     UNKNOWN           binary                   
-gui-arm64                  UNKNOWN           binary                   
-h11                        0.16.0            python                   
-h2                         4.4.1             python                   
-hpack                      4.2.0             python                   
-html5lib                   1.1               python                   
-httpcore                   1.0.9             python                   
-httpx                      0.28.1            python                   
-hyperframe                 6.1.0             python                   
-icu-data-en                76.1-r1           apk                      
-icu-libs                   76.1-r1           apk                      
-idna                       3.18              python                   
-importlib-metadata         8.7.1             python                   
-importlib-resources        7.1.0             python                   
-itsdangerous               2.2.0             python                   
-jaraco-collections         5.2.1             python                   
-jaraco-context             6.1.0             python                   
-jaraco-context             6.1.2             python                   
-jaraco-functools           4.4.0             python                   
-jaraco-functools           4.6.0             python                   
-jaraco-text                4.0.0             python                   
-jaraco-text                4.3.0             python                   
-jinja2                     3.1.6             python                   
-jmespath                   1.1.0             python                   
-jq                         1.8.1-r0          apk                      
-jsonschema                 4.26.0            python                   
-jsonschema-specifications  2025.9.1          python                   
-knowit                     0.6.1             python                   
-libapk2                    2.14.10-r0        apk                      
-libattr                    2.5.2-r2          apk                      
-libbsd                     0.12.2-r0         apk                      
-libbz2                     1.0.8-r6          apk                      
-libcrypto3                 3.5.7-r0          apk                      
-libcurl                    8.14.1-r3         apk                      
-libexpat                   2.8.2-r0          apk                      
-libffi                     3.4.8-r0          apk                      
-libgcc                     14.2.0-r6         apk                      
-libidn2                    2.3.7-r0          apk                      
-libintl                    0.24.1-r0         apk                      
-libmd                      1.1.0-r0          apk                      
-libncursesw                6.5_p20250503-r0  apk                      
-libpanelw                  6.5_p20250503-r0  apk                      
-libproc2                   4.0.4-r3          apk                      
-libpsl                     0.21.5-r3         apk                      
-libssl3                    3.5.7-r0          apk                      
-libstdc++                  14.2.0-r6         apk                      
-libunistring               1.3-r0            apk                      
-linux-pam                  1.7.0-r4          apk                      
-loguru                     0.7.3             python                   
-markdown-it-py             4.2.0             python                   
-markupsafe                 3.0.3             python                   
-matrix-nio                 0.26.0            python                   
-mdurl                      0.1.2             python                   
-more-itertools             10.8.0            python                   
-more-itertools             11.1.0            python                   
-mpdecimal                  4.0.1-r0          apk                      
-multidict                  6.7.1             python                   
-musl                       1.2.5-r12         apk                      
-musl-utils                 1.2.5-r12         apk                      
-ncurses-terminfo-base      6.5_p20250503-r0  apk                      
-netcat-openbsd             1.229.1-r0        apk                      
-nghttp2-libs               1.69.0-r0         apk                      
-nodejs                     22.23.2-r0        apk                      
-oniguruma                  6.9.10-r0         apk                      
-packaging                  26.0              python                   
-packaging                  26.3              python                   
-paramiko                   3.5.1             python                   
-pendulum                   3.2.0             python                   
-pip                        26.2.1            python                   
-platformdirs               4.11.1            python                   
-platformdirs               4.4.0             python                   
-plexapi                    4.18.2            python                   
-plumbum                    2.0.2             python                   
-portend                    3.2.1             python                   
-procps-ng                  4.0.4-r3          apk                      
-propcache                  0.5.2             python                   
-psutil                     7.2.2             python                   
-pyc                        3.12.14-r0        apk                      
-pycparser                  3.0               python                   
-pycryptodome               3.23.0            python                   
-pygments                   2.20.0            python                   
-pymediainfo                7.0.1             python                   
-pynacl                     1.6.2             python                   
-pynzb                      0.1.0             python                   
-pyparsing                  3.3.2             python                   
-pyrss2gen                  1.1               python                   
-pyscrypt                   1.6.2             python                   
-pysftp                     0.2.9             python                   
-pysubs2                    1.8.1             python                   
-python-dateutil            2.9.0.post0       python                   
-python-socks               2.8.2             python                   
-python-telegram-bot        22.8              python                   
-python3                    3.12.14-r0        apk                      
-python3-pyc                3.12.14-r0        apk                      
-python3-pycache-pyc0       3.12.14-r0        apk                      
-pyyaml                     6.0.3             python                   
-qbittorrent-api            2026.8.0          python                   
-rarfile                    4.5               python                   
-readline                   8.2.13-r1         apk                      
-rebulk                     6.0.1             python                   
-referencing                0.37.0            python                   
-requests                   2.34.2            python                   
-rich                       15.0.0            python                   
-rpds-py                    2026.6.3          python                   
-rpyc                       6.0.2             python                   
-s3transfer                 0.19.2            python                   
-scanelf                    1.3.8-r1          apk                      
-setuptools                 84.0.0            python                   
-shadow                     4.17.3-r0         apk                      
-shellingham                1.5.4             python                   
-simdjson                   3.12.0-r0         apk                      
-simdutf                    7.2.1-r0          apk                      
-six                        1.17.0            python                   
-skalibs-libs               2.14.4.0-r0       apk                      
-socksio                    1.0.0             python                   
-soupsieve                  2.9.2             python                   
-sqlalchemy                 2.0.51            python                   
-sqlite-libs                3.49.2-r1         apk                      
-srt                        3.5.3             python                   
-ssl_client                 1.37.0-r20        apk                      
-stevedore                  5.9.0             python                   
-subliminal                 2.7.1             python                   
-tempora                    5.12.0            python                   
-tomli                      2.4.0             python                   
-tomlkit                    0.15.1            python                   
-trakit                     0.3.0             python                   
-transmission-rpc           7.0.12            python                   
-triangular                 2.5.0             npm                      
-typer                      0.27.1            python                   
-typer-slim                 0.24.0            python                   
-typing-extensions          4.16.0            python                   
-tzdata                     2026.3            python                   
-tzdata                     2026c-r0          apk                      
-tzlocal                    5.4.4             python                   
-unpaddedbase64             2.1.0             python                   
-urllib3                    2.7.0             python                   
-utmps-libs                 0.1.3.1-r0        apk                      
-webencodings               0.5.1             python                   
-werkzeug                   3.1.8             python                   
-wheel                      0.46.3            python                   
-xz-libs                    5.8.3-r0          apk                      
-yarl                       1.24.5            python                   
-zc-lockfile                4.0               python                   
-zipp                       3.23.0            python                   
-zlib                       1.3.2-r0          apk                      
-zstd-libs                  1.5.7-r0          apk                      
-zxcvbn                     4.5.0             python                   
+NAME                             VERSION                                                  TYPE                        
+7zip                             25.01-r0                                                 apk                          
+Simple Launcher                  1.1.0.14                                                 binary      (+5 duplicates)  
+acl-libs                         2.3.2-r1                                                 apk                          
+ada-libs                         3.3.0-r0                                                 apk                          
+adler2                           2.0.1                                                    rust-crate  (+1 duplicate)   
+aes                              0.8.4                                                    rust-crate  (+1 duplicate)   
+aho-corasick                     1.1.4                                                    rust-crate  (+1 duplicate)   
+aiofiles                         25.1.0                                                   python                       
+aiohappyeyeballs                 2.7.1                                                    python                       
+aiohttp                          3.14.3                                                   python                       
+aiohttp-socks                    0.11.0                                                   python                       
+aiosignal                        1.4.0                                                    python                       
+allocator-api2                   0.2.21                                                   rust-crate  (+1 duplicate)   
+alpine-baselayout                3.7.2-r0                                                 apk                          
+alpine-baselayout-data           3.7.2-r0                                                 apk                          
+alpine-keys                      2.6-r0                                                   apk                          
+alpine-release                   3.23.5-r0                                                apk                          
+ambient-id                       0.0.11                                                   rust-crate  (+1 duplicate)   
+aniso8601                        10.0.1                                                   python                       
+annotated-doc                    0.0.5                                                    python                       
+anstream                         1.0.0                                                    rust-crate  (+1 duplicate)   
+anstyle                          1.0.14                                                   rust-crate  (+1 duplicate)   
+anstyle-parse                    1.0.0                                                    rust-crate  (+1 duplicate)   
+anstyle-query                    1.1.5                                                    rust-crate  (+1 duplicate)   
+anyhow                           1.0.104                                                  rust-crate  (+1 duplicate)   
+anyio                            4.14.2                                                   python                       
+apk-tools                        3.0.7-r0                                                 apk                          
+apscheduler                      3.11.3                                                   python                       
+arcstr                           1.2.0                                                    rust-crate  (+1 duplicate)   
+asn1-rs                          0.7.1                                                    rust-crate  (+1 duplicate)   
+asn1-rs-impl                     0.2.0                                                    rust-crate  (+1 duplicate)   
+assert-json-diff                 2.0.2                                                    rust-crate  (+1 duplicate)   
+assert_cmd                       2.2.2                                                    rust-crate  (+1 duplicate)   
+assert_fs                        1.1.4                                                    rust-crate  (+1 duplicate)   
+astral-pubgrub                   0.6.1                                                    rust-crate  (+1 duplicate)   
+astral-reqwest-middleware        0.5.1                                                    rust-crate  (+1 duplicate)   
+astral-reqwest-retry             0.9.1                                                    rust-crate  (+1 duplicate)   
+astral-tl                        0.7.11                                                   rust-crate  (+1 duplicate)   
+astral-tokio-tar                 0.6.4                                                    rust-crate  (+1 duplicate)   
+astral-version-ranges            0.2.2                                                    rust-crate  (+1 duplicate)   
+astral_async_http_range_reader   0.11.0                                                   rust-crate  (+1 duplicate)   
+astral_async_zip                 0.0.20                                                   rust-crate  (+1 duplicate)   
+async-broadcast                  0.7.2                                                    rust-crate  (+1 duplicate)   
+async-channel                    2.5.0                                                    rust-crate  (+1 duplicate)   
+async-compression                0.4.19                                                   rust-crate  (+1 duplicate)   
+async-recursion                  1.1.1                                                    rust-crate  (+1 duplicate)   
+async-trait                      0.1.89                                                   rust-crate  (+1 duplicate)   
+atomic-waker                     1.1.2                                                    rust-crate  (+1 duplicate)   
+attrs                            26.1.0                                                   python                       
+autocommand                      2.2.2                                                    python                       
+aws-lc-rs                        1.16.2                                                   rust-crate  (+1 duplicate)   
+aws-lc-sys                       0.39.0                                                   rust-crate  (+1 duplicate)   
+babelfish                        0.6.1                                                    python                       
+backports-tarfile                1.2.0                                                    python                       
+backports-zstd                   1.6.0                                                    python                       
+base64                           0.22.1                                                   rust-crate  (+1 duplicate)   
+base64                           0.23.1                                                   rust-crate  (+1 duplicate)   
+base64ct                         1.8.3                                                    rust-crate  (+1 duplicate)   
+bash                             5.3.3-r1                                                 apk                          
+bcrypt                           5.0.0                                                    python                       
+beautifulsoup4                   4.15.0                                                   python                       
+bitflags                         1.3.2                                                    rust-crate  (+1 duplicate)   
+bitflags                         2.13.1                                                   rust-crate  (+1 duplicate)   
+blake2                           0.11.0-rc.6                                              rust-crate  (+1 duplicate)   
+blinker                          1.9.0                                                    python                       
+block-buffer                     0.10.4                                                   rust-crate  (+1 duplicate)   
+block-buffer                     0.12.1                                                   rust-crate  (+1 duplicate)   
+block-padding                    0.3.3                                                    rust-crate  (+1 duplicate)   
+boost1.84-python3                1.84.0-r3                                                apk                          
+boost1.84-system                 1.84.0-r3                                                apk                          
+borrow-or-share                  0.2.4                                                    rust-crate  (+1 duplicate)   
+boto3                            1.43.67                                                  python                       
+botocore                         1.43.67                                                  python                       
+boxcar                           0.2.14                                                   rust-crate  (+1 duplicate)   
+brotli                           1.2.0                                                    python                       
+brotli-libs                      1.2.0-r0                                                 apk                          
+bstr                             1.12.1                                                   rust-crate  (+1 duplicate)   
+busybox                          1.37.0-r30                                               apk                          
+busybox-binsh                    1.37.0-r30                                               apk                          
+bytecheck                        0.8.2                                                    rust-crate  (+1 duplicate)   
+bytes                            1.12.1                                                   rust-crate  (+1 duplicate)   
+c-ares                           1.34.8-r0                                                apk                          
+ca-certificates                  20260611-r0                                              apk                          
+ca-certificates-bundle           20260611-r0                                              apk                          
+cargo-util                       0.2.30                                                   rust-crate  (+1 duplicate)   
+catatonit                        0.2.1-r0                                                 apk                          
+cbc                              0.1.2                                                    rust-crate  (+1 duplicate)   
+certifi                          2026.7.22                                                python                       
+cffi                             2.1.1                                                    python                       
+cfg-if                           1.0.4                                                    rust-crate  (+1 duplicate)   
+chardet                          7.5.1                                                    python                       
+charset                          0.1.5                                                    rust-crate  (+1 duplicate)   
+charset-normalizer               3.4.9                                                    python                       
+cheroot                          11.1.2                                                   python                       
+cherrypy                         18.10.0                                                  python                       
+cipher                           0.4.4                                                    rust-crate  (+1 duplicate)   
+clap                             4.6.4                                                    rust-crate  (+1 duplicate)   
+clap_builder                     4.6.2                                                    rust-crate  (+1 duplicate)   
+clap_complete                    4.6.0                                                    rust-crate  (+1 duplicate)   
+clap_complete_command            0.6.1                                                    rust-crate  (+1 duplicate)   
+clap_complete_nushell            4.6.0                                                    rust-crate  (+1 duplicate)   
+clap_lex                         1.1.0                                                    rust-crate  (+1 duplicate)   
+cli                              UNKNOWN                                                  binary                       
+cli-32                           UNKNOWN                                                  binary                       
+cli-64                           UNKNOWN                                                  binary                       
+cli-arm64                        UNKNOWN                                                  binary                       
+click                            8.4.2                                                    python                       
+click-option-group               0.5.9                                                    python                       
+cmov                             0.5.4                                                    rust-crate  (+1 duplicate)   
+colorchoice                      1.0.5                                                    rust-crate  (+1 duplicate)   
+concurrent-queue                 2.5.0                                                    rust-crate  (+1 duplicate)   
+configparser                     3.2.0                                                    rust-crate  (+1 duplicate)   
+console                          0.16.4                                                   rust-crate  (+1 duplicate)   
+const-oid                        0.10.2                                                   rust-crate  (+1 duplicate)   
+const-oid                        0.9.6                                                    rust-crate  (+1 duplicate)   
+const-random                     0.1.18                                                   rust-crate  (+1 duplicate)   
+coreutils                        9.8-r1                                                   apk                          
+coreutils-env                    9.8-r1                                                   apk                          
+coreutils-fmt                    9.8-r1                                                   apk                          
+coreutils-sha512sum              9.8-r1                                                   apk                          
+cpufeatures                      0.2.17                                                   rust-crate  (+1 duplicate)   
+cpufeatures                      0.3.0                                                    rust-crate  (+1 duplicate)   
+crc32fast                        1.5.0                                                    rust-crate  (+1 duplicate)   
+crossbeam-channel                0.5.15                                                   rust-crate  (+1 duplicate)   
+crossbeam-deque                  0.8.6                                                    rust-crate  (+1 duplicate)   
+crossbeam-epoch                  0.9.18                                                   rust-crate  (+1 duplicate)   
+crossbeam-utils                  0.8.21                                                   rust-crate  (+1 duplicate)   
+crypto-common                    0.1.7                                                    rust-crate  (+1 duplicate)   
+crypto-common                    0.2.2                                                    rust-crate  (+1 duplicate)   
+cryptography                     50.0.0                                                   python                       
+csv                              1.4.0                                                    rust-crate  (+1 duplicate)   
+csv-core                         0.1.13                                                   rust-crate  (+1 duplicate)   
+ctrlc                            3.5.2                                                    rust-crate  (+1 duplicate)   
+ctutils                          0.4.2                                                    rust-crate  (+1 duplicate)   
+curl                             8.20.0-r0                                                apk                          
+curl-cffi                        0.16.0                                                   python                       
+cyclonedx-bom                    0.8.1                                                    rust-crate  (+1 duplicate)   
+cyclonedx-bom-macros             0.1.0                                                    rust-crate  (+1 duplicate)   
+data-encoding                    2.11.0                                                   rust-crate  (+1 duplicate)   
+deadpool                         0.12.3                                                   rust-crate  (+1 duplicate)   
+deadpool-runtime                 0.1.4                                                    rust-crate  (+1 duplicate)   
+decorator                        5.3.1                                                    python                       
+defmt                            1.1.0                                                    rust-crate  (+1 duplicate)   
+defmt-macros                     1.1.0                                                    rust-crate  (+1 duplicate)   
+defmt-parser                     1.0.0                                                    rust-crate  (+1 duplicate)   
+defusedxml                       0.7.1                                                    python                       
+deluge-client                    1.10.2                                                   python                       
+der                              0.7.10                                                   rust-crate  (+1 duplicate)   
+der-parser                       10.0.0                                                   rust-crate  (+1 duplicate)   
+deranged                         0.5.8                                                    rust-crate  (+1 duplicate)   
+difflib                          0.4.0                                                    rust-crate  (+1 duplicate)   
+digest                           0.10.7                                                   rust-crate  (+1 duplicate)   
+digest                           0.11.3                                                   rust-crate  (+1 duplicate)   
+dirs                             6.0.0                                                    rust-crate  (+1 duplicate)   
+dirs-sys                         0.5.0                                                    rust-crate  (+1 duplicate)   
+diskus                           0.9.0                                                    rust-crate  (+1 duplicate)   
+displaydoc                       0.2.5                                                    rust-crate  (+1 duplicate)   
+dlv-list                         0.5.2                                                    rust-crate  (+1 duplicate)   
+dogpile-cache                    1.5.0                                                    python                       
+dotenvy                          0.15.7                                                   rust-crate  (+1 duplicate)   
+dunce                            1.0.5                                                    rust-crate  (+1 duplicate)   
+dyn-clone                        1.0.20                                                   rust-crate  (+1 duplicate)   
+either                           1.17.0                                                   rust-crate  (+1 duplicate)   
+encoding_rs                      0.8.35                                                   rust-crate  (+1 duplicate)   
+encoding_rs_io                   0.1.7                                                    rust-crate  (+1 duplicate)   
+endi                             1.1.1                                                    rust-crate  (+1 duplicate)   
+enumflags2                       0.7.12                                                   rust-crate  (+1 duplicate)   
+enzyme                           0.5.2                                                    python                       
+equivalent                       1.0.2                                                    rust-crate  (+1 duplicate)   
+erased-serde                     0.4.10                                                   rust-crate  (+1 duplicate)   
+errno                            0.3.14                                                   rust-crate  (+1 duplicate)   
+etcetera                         0.11.0                                                   rust-crate  (+1 duplicate)   
+event-listener                   5.4.1                                                    rust-crate  (+1 duplicate)   
+event-listener-strategy          0.5.4                                                    rust-crate  (+1 duplicate)   
+fastrand                         2.5.0                                                    rust-crate  (+1 duplicate)   
+feedparser                       6.0.14                                                   python                       
+feedparser-sgmllib               2.1.0                                                    python                       
+filetime                         0.2.29                                                   rust-crate  (+1 duplicate)   
+findutils                        4.10.0-r0                                                apk                          
+fixedbitset                      0.5.7                                                    rust-crate  (+1 duplicate)   
+flask                            3.1.3                                                    python                       
+flask-compress                   1.24                                                     python                       
+flask-cors                       6.0.5                                                    python                       
+flask-login                      0.6.3                                                    python                       
+flask-restx                      1.3.2                                                    python                       
+flate2                           1.1.9                                                    rust-crate  (+1 duplicate)   
+flexget                          3.20.5                                                   python                       
+float-cmp                        0.10.0                                                   rust-crate  (+1 duplicate)   
+fluent-uri                       0.4.1                                                    rust-crate  (+1 duplicate)   
+fnv                              1.0.7                                                    rust-crate  (+1 duplicate)   
+foldhash                         0.1.5                                                    rust-crate  (+1 duplicate)   
+foldhash                         0.2.0                                                    rust-crate  (+1 duplicate)   
+form_urlencoded                  1.2.2                                                    rust-crate  (+1 duplicate)   
+frozenlist                       1.8.0                                                    python                       
+fs-err                           3.3.1                                                    rust-crate  (+1 duplicate)   
+ftputil                          5.2.0                                                    python                       
+futures                          0.3.33                                                   rust-crate  (+1 duplicate)   
+futures-channel                  0.3.33                                                   rust-crate  (+1 duplicate)   
+futures-core                     0.3.33                                                   rust-crate  (+1 duplicate)   
+futures-executor                 0.3.33                                                   rust-crate  (+1 duplicate)   
+futures-io                       0.3.33                                                   rust-crate  (+1 duplicate)   
+futures-lite                     2.6.1                                                    rust-crate  (+1 duplicate)   
+futures-sink                     0.3.33                                                   rust-crate  (+1 duplicate)   
+futures-task                     0.3.33                                                   rust-crate  (+1 duplicate)   
+futures-util                     0.3.33                                                   rust-crate  (+1 duplicate)   
+gdbm                             1.26-r0                                                  apk                          
+generic-array                    0.14.7                                                   rust-crate  (+1 duplicate)   
+getrandom                        0.2.16                                                   rust-crate  (+1 duplicate)   
+getrandom                        0.3.4                                                    rust-crate  (+1 duplicate)   
+getrandom                        0.4.3                                                    rust-crate  (+1 duplicate)   
+glob                             0.3.4                                                    rust-crate  (+1 duplicate)   
+globset                          0.4.19                                                   rust-crate  (+1 duplicate)   
+globwalk                         0.9.1                                                    rust-crate  (+1 duplicate)   
+goblin                           0.10.7                                                   rust-crate  (+1 duplicate)   
+greenlet                         3.5.4                                                    python                       
+guessit                          3.8.0                                                    python                       
+gui                              UNKNOWN                                                  binary                       
+gui-32                           UNKNOWN                                                  binary                       
+gui-64                           UNKNOWN                                                  binary                       
+gui-arm64                        UNKNOWN                                                  binary                       
+h11                              0.16.0                                                   python                       
+h2                               0.4.15                                                   rust-crate  (+1 duplicate)   
+h2                               4.4.1                                                    python                       
+hashbrown                        0.14.5                                                   rust-crate  (+1 duplicate)   
+hashbrown                        0.15.5                                                   rust-crate  (+1 duplicate)   
+hashbrown                        0.17.1                                                   rust-crate  (+1 duplicate)   
+hex                              0.4.3                                                    rust-crate  (+1 duplicate)   
+hkdf                             0.12.4                                                   rust-crate  (+1 duplicate)   
+hmac                             0.12.1                                                   rust-crate  (+1 duplicate)   
+hmac                             0.13.0                                                   rust-crate  (+1 duplicate)   
+hpack                            4.2.0                                                    python                       
+html-escape                      0.2.14                                                   rust-crate  (+1 duplicate)   
+html5lib                         1.1                                                      python                       
+http                             1.4.2                                                    rust-crate  (+1 duplicate)   
+http-body                        1.0.1                                                    rust-crate  (+1 duplicate)   
+http-body-util                   0.1.4                                                    rust-crate  (+1 duplicate)   
+http-content-range               0.2.4                                                    rust-crate  (+1 duplicate)   
+httparse                         1.10.1                                                   rust-crate  (+1 duplicate)   
+httpcore                         1.0.9                                                    python                       
+httpdate                         1.0.3                                                    rust-crate  (+1 duplicate)   
+httpx                            0.28.1                                                   python                       
+hybrid-array                     0.4.13                                                   rust-crate  (+1 duplicate)   
+hyper                            1.10.1                                                   rust-crate  (+1 duplicate)   
+hyper-rustls                     0.27.7                                                   rust-crate  (+1 duplicate)   
+hyper-util                       0.1.20                                                   rust-crate  (+1 duplicate)   
+hyperframe                       6.1.0                                                    python                       
+icu-data-en                      76.1-r1                                                  apk                          
+icu-libs                         76.1-r1                                                  apk                          
+icu_collections                  2.1.1                                                    rust-crate  (+1 duplicate)   
+icu_locale_core                  2.1.1                                                    rust-crate  (+1 duplicate)   
+icu_normalizer                   2.1.1                                                    rust-crate  (+1 duplicate)   
+icu_normalizer_data              2.1.1                                                    rust-crate  (+1 duplicate)   
+icu_properties                   2.1.2                                                    rust-crate  (+1 duplicate)   
+icu_properties_data              2.1.2                                                    rust-crate  (+1 duplicate)   
+icu_provider                     2.1.1                                                    rust-crate  (+1 duplicate)   
+idna                             1.1.0                                                    rust-crate  (+1 duplicate)   
+idna                             3.18                                                     python                       
+idna_adapter                     1.2.1                                                    rust-crate  (+1 duplicate)   
+ignore                           0.4.31                                                   rust-crate  (+1 duplicate)   
+importlib-metadata               8.7.1                                                    python                       
+importlib-resources              7.1.0                                                    python                       
+indexmap                         2.14.0                                                   rust-crate  (+1 duplicate)   
+indicatif                        0.18.6                                                   rust-crate  (+1 duplicate)   
+indoc                            2.0.7                                                    rust-crate  (+1 duplicate)   
+inout                            0.1.4                                                    rust-crate  (+1 duplicate)   
+insta                            1.48.0                                                   rust-crate  (+1 duplicate)   
+ipnet                            2.12.0                                                   rust-crate  (+1 duplicate)   
+iri-string                       0.7.10                                                   rust-crate  (+1 duplicate)   
+is-docker                        0.2.0                                                    rust-crate  (+1 duplicate)   
+is-wsl                           0.4.0                                                    rust-crate  (+1 duplicate)   
+is_ci                            1.2.0                                                    rust-crate  (+1 duplicate)   
+is_terminal_polyfill             1.70.2                                                   rust-crate  (+1 duplicate)   
+itertools                        0.14.0                                                   rust-crate  (+1 duplicate)   
+itoa                             1.0.17                                                   rust-crate  (+1 duplicate)   
+itsdangerous                     2.2.0                                                    python                       
+jaraco-collections               5.2.1                                                    python                       
+jaraco-context                   6.1.0                                                    python                       
+jaraco-context                   6.1.2                                                    python                       
+jaraco-functools                 4.4.0                                                    python                       
+jaraco-functools                 4.6.0                                                    python                       
+jaraco-text                      4.0.0                                                    python                       
+jaraco-text                      4.3.0                                                    python                       
+jiff                             0.2.35                                                   rust-crate  (+1 duplicate)   
+jiff-core                        0.1.0                                                    rust-crate  (+1 duplicate)   
+jinja2                           3.1.6                                                    python                       
+jmespath                         1.1.0                                                    python                       
+jobserver                        0.1.35                                                   rust-crate  (+1 duplicate)   
+jq                               1.8.1-r0                                                 apk                          
+jsonschema                       4.26.0                                                   python                       
+jsonschema-specifications        2025.9.1                                                 python                       
+knowit                           0.6.1                                                    python                       
+lazy_static                      1.5.0                                                    rust-crate  (+1 duplicate)   
+libapk                           3.0.7-r0                                                 apk                          
+libattr                          2.5.2-r2                                                 apk                          
+libbsd                           0.12.2-r0                                                apk                          
+libbz2                           1.0.8-r6                                                 apk                          
+libc                             0.2.186                                                  rust-crate  (+1 duplicate)   
+libcrypto3                       3.5.7-r0                                                 apk                          
+libcurl                          8.20.0-r0                                                apk                          
+libexpat                         2.8.2-r0                                                 apk                          
+libffi                           3.5.2-r0                                                 apk                          
+libgcc                           15.2.0-r2                                                apk                          
+libidn2                          2.3.8-r0                                                 apk                          
+libintl                          0.24.1-r1                                                apk                          
+libm                             0.2.16                                                   rust-crate  (+1 duplicate)   
+libmd                            1.1.0-r0                                                 apk                          
+libncursesw                      6.5_p20251123-r0                                         apk                          
+libpanelw                        6.5_p20251123-r0                                         apk                          
+libproc2                         4.0.5-r0                                                 apk                          
+libpsl                           0.21.5-r3                                                apk                          
+libssl3                          3.5.7-r0                                                 apk                          
+libstdc++                        15.2.0-r2                                                apk                          
+libunistring                     1.4.1-r0                                                 apk                          
+linux-pam                        1.7.1-r2                                                 apk                          
+linux-raw-sys                    0.12.1                                                   rust-crate  (+1 duplicate)   
+litemap                          0.8.1                                                    rust-crate  (+1 duplicate)   
+lock_api                         0.4.14                                                   rust-crate  (+1 duplicate)   
+log                              0.4.29                                                   rust-crate  (+1 duplicate)   
+loguru                           0.7.3                                                    python                       
+lru-slab                         0.1.2                                                    rust-crate  (+1 duplicate)   
+mailparse                        0.16.1                                                   rust-crate  (+1 duplicate)   
+markdown-it-py                   4.2.0                                                    python                       
+markupsafe                       3.0.3                                                    python                       
+matchers                         0.2.0                                                    rust-crate  (+1 duplicate)   
+matrix-nio                       0.26.0                                                   python                       
+md-5                             0.11.0                                                   rust-crate  (+1 duplicate)   
+mdurl                            0.1.2                                                    python                       
+memchr                           2.8.3                                                    rust-crate  (+1 duplicate)   
+memmap2                          0.9.10                                                   rust-crate  (+1 duplicate)   
+miette                           7.6.0                                                    rust-crate  (+1 duplicate)   
+mime                             0.3.17                                                   rust-crate  (+1 duplicate)   
+mime_guess                       2.0.5                                                    rust-crate  (+1 duplicate)   
+minimal-lexical                  0.2.1                                                    rust-crate  (+1 duplicate)   
+miniz_oxide                      0.8.9                                                    rust-crate  (+1 duplicate)   
+mio                              1.2.0                                                    rust-crate  (+1 duplicate)   
+more-itertools                   10.8.0                                                   python                       
+more-itertools                   11.1.0                                                   python                       
+mpdecimal                        4.0.1-r0                                                 apk                          
+multidict                        6.7.1                                                    python                       
+munge                            0.4.7                                                    rust-crate  (+1 duplicate)   
+musl                             1.2.5-r23                                                apk                          
+musl-utils                       1.2.5-r23                                                apk                          
+ncurses-terminfo-base            6.5_p20251123-r0                                         apk                          
+netcat-openbsd                   1.234.1-r0                                               apk                          
+nghttp2-libs                     1.69.0-r0                                                apk                          
+nix                              0.31.3                                                   rust-crate  (+1 duplicate)   
+nodejs                           24.18.1-r0                                               apk                          
+nom                              7.1.3                                                    rust-crate  (+1 duplicate)   
+normalize-line-endings           0.3.0                                                    rust-crate  (+1 duplicate)   
+nu-ansi-term                     0.50.3                                                   rust-crate  (+1 duplicate)   
+num                              0.4.3                                                    rust-crate  (+1 duplicate)   
+num-bigint                       0.4.6                                                    rust-crate  (+1 duplicate)   
+num-bigint-dig                   0.8.6                                                    rust-crate  (+1 duplicate)   
+num-complex                      0.4.6                                                    rust-crate  (+1 duplicate)   
+num-conv                         0.2.0                                                    rust-crate  (+1 duplicate)   
+num-integer                      0.1.46                                                   rust-crate  (+1 duplicate)   
+num-iter                         0.1.45                                                   rust-crate  (+1 duplicate)   
+num-rational                     0.4.2                                                    rust-crate  (+1 duplicate)   
+num-traits                       0.2.19                                                   rust-crate  (+1 duplicate)   
+num_cpus                         1.17.0                                                   rust-crate  (+1 duplicate)   
+oid-registry                     0.8.1                                                    rust-crate  (+1 duplicate)   
+once_cell                        1.21.4                                                   rust-crate  (+1 duplicate)   
+oniguruma                        6.9.10-r0                                                apk                          
+open                             5.4.0                                                    rust-crate  (+1 duplicate)   
+openssl-probe                    0.2.1                                                    rust-crate  (+1 duplicate)   
+option-ext                       0.2.0                                                    rust-crate  (+1 duplicate)   
+ordered-float                    5.3.0                                                    rust-crate  (+1 duplicate)   
+ordered-multimap                 0.7.3                                                    rust-crate  (+1 duplicate)   
+ordered-stream                   0.2.0                                                    rust-crate  (+1 duplicate)   
+os_str_bytes                     6.6.1                                                    rust-crate  (+1 duplicate)   
+owo-colors                       4.3.0                                                    rust-crate  (+1 duplicate)   
+packaging                        26.0                                                     python                       
+packaging                        26.3                                                     python                       
+papaya                           0.2.4                                                    rust-crate  (+1 duplicate)   
+paramiko                         3.5.1                                                    python                       
+parking                          2.2.1                                                    rust-crate  (+1 duplicate)   
+parking_lot                      0.12.5                                                   rust-crate  (+1 duplicate)   
+parking_lot_core                 0.9.12                                                   rust-crate  (+1 duplicate)   
+path-slash                       0.2.1                                                    rust-crate  (+1 duplicate)   
+pathdiff                         0.2.3                                                    rust-crate  (+1 duplicate)   
+pbkdf2                           0.12.2                                                   rust-crate  (+1 duplicate)   
+pem                              3.0.6                                                    rust-crate  (+1 duplicate)   
+pem-rfc7468                      0.7.0                                                    rust-crate  (+1 duplicate)   
+pendulum                         3.2.0                                                    python                       
+percent-encoding                 2.3.2                                                    rust-crate  (+1 duplicate)   
+pest                             2.8.6                                                    rust-crate  (+1 duplicate)   
+pest_derive                      2.8.6                                                    rust-crate  (+1 duplicate)   
+pest_generator                   2.8.6                                                    rust-crate  (+1 duplicate)   
+pest_meta                        2.8.6                                                    rust-crate  (+1 duplicate)   
+petgraph                         0.8.3                                                    rust-crate  (+1 duplicate)   
+pin-project                      1.1.11                                                   rust-crate  (+1 duplicate)   
+pin-project-lite                 0.2.17                                                   rust-crate  (+1 duplicate)   
+pip                              26.2.1                                                   python                       
+pkcs1                            0.7.5                                                    rust-crate  (+1 duplicate)   
+pkcs5                            0.7.1                                                    rust-crate  (+1 duplicate)   
+pkcs8                            0.10.2                                                   rust-crate  (+1 duplicate)   
+plain                            0.2.3                                                    rust-crate  (+1 duplicate)   
+platformdirs                     4.11.1                                                   python                       
+platformdirs                     4.4.0                                                    python                       
+plexapi                          4.18.2                                                   python                       
+plumbum                          2.0.2                                                    python                       
+portable-atomic                  1.13.1                                                   rust-crate  (+1 duplicate)   
+portend                          3.2.1                                                    python                       
+potential_utf                    0.1.4                                                    rust-crate  (+1 duplicate)   
+powerfmt                         0.2.0                                                    rust-crate  (+1 duplicate)   
+ppv-lite86                       0.2.21                                                   rust-crate  (+1 duplicate)   
+predicates                       3.1.4                                                    rust-crate  (+1 duplicate)   
+predicates-core                  1.0.10                                                   rust-crate  (+1 duplicate)   
+predicates-tree                  1.0.13                                                   rust-crate  (+1 duplicate)   
+priority-queue                   2.7.0                                                    rust-crate  (+1 duplicate)   
+proc-macro-crate                 3.5.0                                                    rust-crate  (+1 duplicate)   
+proc-macro-error2                2.0.1                                                    rust-crate  (+1 duplicate)   
+proc-macro2                      1.0.107                                                  rust-crate  (+1 duplicate)   
+procfs                           0.18.0                                                   rust-crate  (+1 duplicate)   
+procfs-core                      0.18.0                                                   rust-crate  (+1 duplicate)   
+procps-ng                        4.0.5-r0                                                 apk                          
+propcache                        0.5.2                                                    python                       
+psutil                           7.2.2                                                    python                       
+ptr_meta                         0.3.1                                                    rust-crate  (+1 duplicate)   
+purl                             0.1.6                                                    rust-crate  (+1 duplicate)   
+pyc                              3.12.14-r0                                               apk                          
+pycparser                        3.0                                                      python                       
+pycryptodome                     3.23.0                                                   python                       
+pygments                         2.20.0                                                   python                       
+pymediainfo                      7.0.1                                                    python                       
+pynacl                           1.6.2                                                    python                       
+pynzb                            0.1.0                                                    python                       
+pyparsing                        3.3.2                                                    python                       
+pyrss2gen                        1.1                                                      python                       
+pyscrypt                         1.6.2                                                    python                       
+pysftp                           0.2.9                                                    python                       
+pysubs2                          1.8.1                                                    python                       
+python-dateutil                  2.9.0.post0                                              python                       
+python-socks                     2.8.2                                                    python                       
+python-telegram-bot              22.8                                                     python                       
+python3                          3.12.14-r0                                               apk                          
+python3-pyc                      3.12.14-r0                                               apk                          
+python3-pycache-pyc0             3.12.14-r0                                               apk                          
+pyyaml                           6.0.3                                                    python                       
+qbittorrent-api                  2026.8.0                                                 python                       
+quick-xml                        0.41.0                                                   rust-crate  (+1 duplicate)   
+quinn                            0.11.9                                                   rust-crate  (+1 duplicate)   
+quinn-proto                      0.11.15                                                  rust-crate  (+1 duplicate)   
+quinn-udp                        0.5.15                                                   rust-crate  (+1 duplicate)   
+quote                            1.0.47                                                   rust-crate  (+1 duplicate)   
+quoted_printable                 0.5.1                                                    rust-crate  (+1 duplicate)   
+rancor                           0.1.1                                                    rust-crate  (+1 duplicate)   
+rand                             0.8.6                                                    rust-crate  (+1 duplicate)   
+rand                             0.9.4                                                    rust-crate  (+1 duplicate)   
+rand_chacha                      0.3.1                                                    rust-crate  (+1 duplicate)   
+rand_chacha                      0.9.0                                                    rust-crate  (+1 duplicate)   
+rand_core                        0.6.4                                                    rust-crate  (+1 duplicate)   
+rand_core                        0.9.5                                                    rust-crate  (+1 duplicate)   
+rarfile                          4.5                                                      python                       
+rayon                            1.12.0                                                   rust-crate  (+1 duplicate)   
+rayon-core                       1.13.0                                                   rust-crate  (+1 duplicate)   
+readline                         8.3.1-r0                                                 apk                          
+rebulk                           6.0.1                                                    python                       
+ref-cast                         1.0.26                                                   rust-crate  (+1 duplicate)   
+referencing                      0.37.0                                                   python                       
+reflink-copy                     0.1.30                                                   rust-crate  (+1 duplicate)   
+regex                            1.13.1                                                   rust-crate  (+1 duplicate)   
+regex-automata                   0.4.16                                                   rust-crate  (+1 duplicate)   
+regex-syntax                     0.8.11                                                   rust-crate  (+1 duplicate)   
+rend                             0.5.3                                                    rust-crate  (+1 duplicate)   
+reqsign                          0.20.3                                                   rust-crate  (+1 duplicate)   
+reqsign-aws-core                 3.0.3                                                    rust-crate  (+1 duplicate)   
+reqsign-aws-v4                   3.1.0                                                    rust-crate  (+1 duplicate)   
+reqsign-azure-storage            3.1.2                                                    rust-crate  (+1 duplicate)   
+reqsign-command-execute-tokio    3.0.4                                                    rust-crate  (+1 duplicate)   
+reqsign-core                     3.2.1                                                    rust-crate  (+1 duplicate)   
+reqsign-file-read-tokio          3.0.4                                                    rust-crate  (+1 duplicate)   
+reqsign-google                   3.0.4                                                    rust-crate  (+1 duplicate)   
+reqsign-http-send-reqwest        4.0.4                                                    rust-crate  (+1 duplicate)   
+requests                         2.34.2                                                   python                       
+reqwest                          0.13.4                                                   rust-crate  (+1 duplicate)   
+retry-policies                   0.5.1                                                    rust-crate  (+1 duplicate)   
+rich                             15.0.0                                                   python                       
+ring                             0.17.14                                                  rust-crate  (+1 duplicate)   
+rkyv                             0.8.17                                                   rust-crate  (+1 duplicate)   
+rmp                              0.8.15                                                   rust-crate  (+1 duplicate)   
+rmp-serde                        1.3.1                                                    rust-crate  (+1 duplicate)   
+rpds-py                          2026.6.3                                                 python                       
+rpyc                             6.0.2                                                    python                       
+rsa                              0.9.10                                                   rust-crate  (+1 duplicate)   
+rust-ini                         0.21.3                                                   rust-crate  (+1 duplicate)   
+rustc-hash                       2.1.3                                                    rust-crate  (+1 duplicate)   
+rusticata-macros                 4.1.0                                                    rust-crate  (+1 duplicate)   
+rustix                           1.1.4                                                    rust-crate  (+1 duplicate)   
+rustls                           0.23.42                                                  rust-crate  (+1 duplicate)   
+rustls-native-certs              0.8.4                                                    rust-crate  (+1 duplicate)   
+rustls-pki-types                 1.15.1                                                   rust-crate  (+1 duplicate)   
+rustls-platform-verifier         0.7.0                                                    rust-crate  (+1 duplicate)   
+rustls-webpki                    0.103.13                                                 rust-crate  (+1 duplicate)   
+ryu                              1.0.23                                                   rust-crate  (+1 duplicate)   
+s3transfer                       0.19.2                                                   python                       
+salsa20                          0.10.2                                                   rust-crate  (+1 duplicate)   
+same-file                        1.0.6                                                    rust-crate  (+1 duplicate)   
+scanelf                          1.3.8-r2                                                 apk                          
+schemars                         1.2.1                                                    rust-crate  (+1 duplicate)   
+scopeguard                       1.2.0                                                    rust-crate  (+1 duplicate)   
+scroll                           0.13.0                                                   rust-crate  (+1 duplicate)   
+scrypt                           0.11.0                                                   rust-crate  (+1 duplicate)   
+seahash                          4.1.0                                                    rust-crate  (+1 duplicate)   
+secrecy                          0.10.3                                                   rust-crate  (+1 duplicate)   
+secret-service                   5.1.0                                                    rust-crate  (+1 duplicate)   
+seize                            0.5.1                                                    rust-crate  (+1 duplicate)   
+serde                            1.0.229                                                  rust-crate  (+1 duplicate)   
+serde-untagged                   0.1.9                                                    rust-crate  (+1 duplicate)   
+serde_core                       1.0.229                                                  rust-crate  (+1 duplicate)   
+serde_json                       1.0.151                                                  rust-crate  (+1 duplicate)   
+serde_repr                       0.1.20                                                   rust-crate  (+1 duplicate)   
+serde_spanned                    1.1.1                                                    rust-crate  (+1 duplicate)   
+serde_urlencoded                 0.7.1                                                    rust-crate  (+1 duplicate)   
+setuptools                       84.0.0                                                   python                       
+sha1                             0.11.0                                                   rust-crate  (+1 duplicate)   
+sha2                             0.10.9                                                   rust-crate  (+1 duplicate)   
+sha2                             0.11.0                                                   rust-crate  (+1 duplicate)   
+shadow                           4.18.0-r0                                                apk                          
+sharded-slab                     0.1.7                                                    rust-crate  (+1 duplicate)   
+shell-escape                     0.1.5                                                    rust-crate  (+1 duplicate)   
+shellexpand                      3.1.2                                                    rust-crate  (+1 duplicate)   
+shellingham                      1.5.4                                                    python                       
+signal-hook-registry             1.4.8                                                    rust-crate  (+1 duplicate)   
+signature                        2.2.0                                                    rust-crate  (+1 duplicate)   
+simd-adler32                     0.3.8                                                    rust-crate  (+1 duplicate)   
+simdjson                         3.12.0-r0                                                apk                          
+simdutf                          7.5.0-r1                                                 apk                          
+simdutf8                         0.1.5                                                    rust-crate  (+1 duplicate)   
+similar                          2.7.0                                                    rust-crate  (+1 duplicate)   
+similar                          3.1.1                                                    rust-crate  (+1 duplicate)   
+six                              1.17.0                                                   python                       
+skalibs-libs                     2.14.4.0-r0                                              apk                          
+slab                             0.4.12                                                   rust-crate  (+1 duplicate)   
+smallvec                         1.15.2                                                   rust-crate  (+1 duplicate)   
+smawk                            0.3.2                                                    rust-crate  (+1 duplicate)   
+socket2                          0.6.3                                                    rust-crate  (+1 duplicate)   
+socksio                          1.0.0                                                    python                       
+soupsieve                        2.9.2                                                    python                       
+spdx                             0.13.4                                                   rust-crate  (+1 duplicate)   
+spin                             0.9.8                                                    rust-crate  (+1 duplicate)   
+spki                             0.7.3                                                    rust-crate  (+1 duplicate)   
+sqlalchemy                       2.0.51                                                   python                       
+sqlite-libs                      3.51.2-r0                                                apk                          
+srt                              3.5.3                                                    python                       
+ssl_client                       1.37.0-r30                                               apk                          
+stable_deref_trait               1.2.1                                                    rust-crate  (+1 duplicate)   
+stevedore                        5.9.0                                                    python                       
+strip-ansi-escapes               0.2.1                                                    rust-crate  (+1 duplicate)   
+strsim                           0.11.1                                                   rust-crate  (+1 duplicate)   
+strum                            0.28.0                                                   rust-crate  (+1 duplicate)   
+subliminal                       2.7.1                                                    python                       
+subtle                           2.6.1                                                    rust-crate  (+1 duplicate)   
+supports-color                   3.0.2                                                    rust-crate  (+1 duplicate)   
+supports-hyperlinks              3.2.0                                                    rust-crate  (+1 duplicate)   
+supports-unicode                 3.0.0                                                    rust-crate  (+1 duplicate)   
+syn                              2.0.118                                                  rust-crate  (+1 duplicate)   
+sync_wrapper                     1.0.2                                                    rust-crate  (+1 duplicate)   
+synstructure                     0.13.2                                                   rust-crate  (+1 duplicate)   
+target-lexicon                   0.13.5                                                   rust-crate  (+1 duplicate)   
+temp-env                         0.3.6                                                    rust-crate  (+1 duplicate)   
+tempfile                         3.27.0                                                   rust-crate  (+1 duplicate)   
+tempora                          5.12.0                                                   python                       
+terminal_size                    0.4.4                                                    rust-crate  (+1 duplicate)   
+termtree                         0.5.1                                                    rust-crate  (+1 duplicate)   
+textwrap                         0.16.2                                                   rust-crate  (+1 duplicate)   
+thiserror                        2.0.19                                                   rust-crate  (+1 duplicate)   
+thread_local                     1.1.9                                                    rust-crate  (+1 duplicate)   
+tikv-jemalloc-sys                0.6.1+5.3.0-1-ge13ca993e8ccb9ba9847cc330696e02839f328f7  rust-crate  (+1 duplicate)   
+tikv-jemallocator                0.6.1                                                    rust-crate  (+1 duplicate)   
+time                             0.3.47                                                   rust-crate  (+1 duplicate)   
+time-core                        0.1.8                                                    rust-crate  (+1 duplicate)   
+tinystr                          0.8.2                                                    rust-crate  (+1 duplicate)   
+tinyvec                          1.11.0                                                   rust-crate  (+1 duplicate)   
+tinyvec_macros                   0.1.1                                                    rust-crate  (+1 duplicate)   
+tokio                            1.53.1                                                   rust-crate  (+1 duplicate)   
+tokio-rustls                     0.26.4                                                   rust-crate  (+1 duplicate)   
+tokio-stream                     0.1.19                                                   rust-crate  (+1 duplicate)   
+tokio-util                       0.7.19                                                   rust-crate  (+1 duplicate)   
+toml                             1.1.3+spec-1.1.0                                         rust-crate  (+1 duplicate)   
+toml_datetime                    1.1.1+spec-1.1.0                                         rust-crate  (+1 duplicate)   
+toml_edit                        0.25.13+spec-1.1.0                                       rust-crate  (+1 duplicate)   
+toml_parser                      1.1.2+spec-1.1.0                                         rust-crate  (+1 duplicate)   
+toml_writer                      1.1.2+spec-1.1.0                                         rust-crate  (+1 duplicate)   
+tomli                            2.4.0                                                    python                       
+tomlkit                          0.15.1                                                   python                       
+tower                            0.5.3                                                    rust-crate  (+1 duplicate)   
+tower-http                       0.6.8                                                    rust-crate  (+1 duplicate)   
+tower-layer                      0.3.3                                                    rust-crate  (+1 duplicate)   
+tower-service                    0.3.3                                                    rust-crate  (+1 duplicate)   
+tracing                          0.1.44                                                   rust-crate  (+1 duplicate)   
+tracing-attributes               0.1.31                                                   rust-crate  (+1 duplicate)   
+tracing-core                     0.1.36                                                   rust-crate  (+1 duplicate)   
+tracing-log                      0.2.0                                                    rust-crate  (+1 duplicate)   
+tracing-subscriber               0.3.23                                                   rust-crate  (+1 duplicate)   
+tracing-tree                     0.4.1                                                    rust-crate  (+1 duplicate)   
+trakit                           0.3.0                                                    python                       
+transmission-rpc                 7.0.12                                                   python                       
+triangular                       2.5.0                                                    npm                          
+try-lock                         0.2.5                                                    rust-crate  (+1 duplicate)   
+typeid                           1.0.3                                                    rust-crate  (+1 duplicate)   
+typenum                          1.20.1                                                   rust-crate  (+1 duplicate)   
+typer                            0.27.1                                                   python                       
+typer-slim                       0.24.0                                                   python                       
+typing-extensions                4.16.0                                                   python                       
+tzdata                           2026.3                                                   python                       
+tzdata                           2026c-r0                                                 apk                          
+tzlocal                          5.4.4                                                    python                       
+ucd-trie                         0.1.7                                                    rust-crate  (+1 duplicate)   
+unicase                          2.9.0                                                    rust-crate  (+1 duplicate)   
+unicode-ident                    1.0.24                                                   rust-crate  (+1 duplicate)   
+unicode-linebreak                0.1.5                                                    rust-crate  (+1 duplicate)   
+unicode-width                    0.1.14                                                   rust-crate  (+1 duplicate)   
+unicode-width                    0.2.2                                                    rust-crate  (+1 duplicate)   
+unit-prefix                      0.5.2                                                    rust-crate  (+1 duplicate)   
+unpaddedbase64                   2.1.0                                                    python                       
+unscanny                         0.1.0                                                    rust-crate  (+1 duplicate)   
+untrusted                        0.9.0                                                    rust-crate  (+1 duplicate)   
+url                              2.5.8                                                    rust-crate  (+1 duplicate)   
+urllib3                          2.7.0                                                    python                       
+utf8_iter                        1.0.4                                                    rust-crate  (+1 duplicate)   
+utf8parse                        0.2.2                                                    rust-crate  (+1 duplicate)   
+utmps-libs                       0.1.3.1-r0                                               apk                          
+uuid                             1.24.0                                                   rust-crate  (+1 duplicate)   
+uv                               0.12.3                                                   rust-crate  (+1 duplicate)   
+uv-audit                         0.0.70                                                   rust-crate  (+1 duplicate)   
+uv-auth                          0.0.70                                                   rust-crate  (+1 duplicate)   
+uv-bin-install                   0.0.70                                                   rust-crate  (+1 duplicate)   
+uv-build-backend                 0.0.70                                                   rust-crate  (+1 duplicate)   
+uv-build-frontend                0.0.70                                                   rust-crate  (+1 duplicate)   
+uv-cache                         0.0.70                                                   rust-crate  (+1 duplicate)   
+uv-cache-info                    0.0.70                                                   rust-crate  (+1 duplicate)   
+uv-cache-key                     0.0.70                                                   rust-crate  (+1 duplicate)   
+uv-cli                           0.0.70                                                   rust-crate  (+1 duplicate)   
+uv-client                        0.0.70                                                   rust-crate  (+1 duplicate)   
+uv-configuration                 0.0.70                                                   rust-crate  (+1 duplicate)   
+uv-console                       0.0.70                                                   rust-crate  (+1 duplicate)   
+uv-dirs                          0.0.70                                                   rust-crate  (+1 duplicate)   
+uv-dispatch                      0.0.70                                                   rust-crate  (+1 duplicate)   
+uv-distribution                  0.0.70                                                   rust-crate  (+1 duplicate)   
+uv-distribution-filename         0.0.70                                                   rust-crate  (+1 duplicate)   
+uv-distribution-types            0.0.70                                                   rust-crate  (+1 duplicate)   
+uv-errors                        0.0.70                                                   rust-crate  (+1 duplicate)   
+uv-extract                       0.0.70                                                   rust-crate  (+1 duplicate)   
+uv-fastid                        0.0.70                                                   rust-crate  (+1 duplicate)   
+uv-flags                         0.0.70                                                   rust-crate  (+1 duplicate)   
+uv-fs                            0.0.70                                                   rust-crate  (+1 duplicate)   
+uv-git                           0.0.70                                                   rust-crate  (+1 duplicate)   
+uv-git-types                     0.0.70                                                   rust-crate  (+1 duplicate)   
+uv-globfilter                    0.0.70                                                   rust-crate  (+1 duplicate)   
+uv-install-wheel                 0.0.70                                                   rust-crate  (+1 duplicate)   
+uv-installer                     0.0.70                                                   rust-crate  (+1 duplicate)   
+uv-keyring                       0.0.70                                                   rust-crate  (+1 duplicate)   
+uv-logging                       0.0.70                                                   rust-crate  (+1 duplicate)   
+uv-metadata                      0.0.70                                                   rust-crate  (+1 duplicate)   
+uv-netrc                         0.0.70                                                   rust-crate  (+1 duplicate)   
+uv-normalize                     0.0.70                                                   rust-crate  (+1 duplicate)   
+uv-once-map                      0.0.70                                                   rust-crate  (+1 duplicate)   
+uv-options-metadata              0.0.70                                                   rust-crate  (+1 duplicate)   
+uv-pep440                        0.0.70                                                   rust-crate  (+1 duplicate)   
+uv-pep508                        0.0.70                                                   rust-crate  (+1 duplicate)   
+uv-performance-memory-allocator  0.0.70                                                   rust-crate  (+1 duplicate)   
+uv-platform                      0.0.70                                                   rust-crate  (+1 duplicate)   
+uv-platform-tags                 0.0.70                                                   rust-crate  (+1 duplicate)   
+uv-preview                       0.0.70                                                   rust-crate  (+1 duplicate)   
+uv-publish                       0.0.70                                                   rust-crate  (+1 duplicate)   
+uv-pypi-types                    0.0.70                                                   rust-crate  (+1 duplicate)   
+uv-python                        0.0.70                                                   rust-crate  (+1 duplicate)   
+uv-redacted                      0.0.70                                                   rust-crate  (+1 duplicate)   
+uv-requirements                  0.0.70                                                   rust-crate  (+1 duplicate)   
+uv-requirements-txt              0.0.70                                                   rust-crate  (+1 duplicate)   
+uv-resolver                      0.0.70                                                   rust-crate  (+1 duplicate)   
+uv-scripts                       0.0.70                                                   rust-crate  (+1 duplicate)   
+uv-settings                      0.0.70                                                   rust-crate  (+1 duplicate)   
+uv-shell                         0.0.70                                                   rust-crate  (+1 duplicate)   
+uv-small-str                     0.0.70                                                   rust-crate  (+1 duplicate)   
+uv-state                         0.0.70                                                   rust-crate  (+1 duplicate)   
+uv-static                        0.0.70                                                   rust-crate  (+1 duplicate)   
+uv-test                          0.0.70                                                   rust-crate  (+1 duplicate)   
+uv-toml                          0.0.70                                                   rust-crate  (+1 duplicate)   
+uv-tool                          0.0.70                                                   rust-crate  (+1 duplicate)   
+uv-torch                         0.0.70                                                   rust-crate  (+1 duplicate)   
+uv-trampoline-builder            0.0.70                                                   rust-crate  (+1 duplicate)   
+uv-types                         0.0.70                                                   rust-crate  (+1 duplicate)   
+uv-unix                          0.0.70                                                   rust-crate  (+1 duplicate)   
+uv-version                       0.12.3                                                   rust-crate  (+1 duplicate)   
+uv-virtualenv                    0.0.70                                                   rust-crate  (+1 duplicate)   
+uv-warnings                      0.0.70                                                   rust-crate  (+1 duplicate)   
+uv-workspace                     0.0.70                                                   rust-crate  (+1 duplicate)   
+vte                              0.14.1                                                   rust-crate  (+1 duplicate)   
+wait-timeout                     0.2.1                                                    rust-crate  (+1 duplicate)   
+walkdir                          2.5.0                                                    rust-crate  (+1 duplicate)   
+want                             0.3.1                                                    rust-crate  (+1 duplicate)   
+webencodings                     0.5.1                                                    python                       
+webpki-root-certs                1.0.9                                                    rust-crate  (+1 duplicate)   
+werkzeug                         3.1.8                                                    python                       
+wheel                            0.46.3                                                   python                       
+which                            8.0.5                                                    rust-crate  (+1 duplicate)   
+winnow                           1.0.3                                                    rust-crate  (+1 duplicate)   
+wiremock                         0.6.5                                                    rust-crate  (+1 duplicate)   
+writeable                        0.6.2                                                    rust-crate  (+1 duplicate)   
+x509-parser                      0.18.1                                                   rust-crate  (+1 duplicate)   
+xattr                            1.6.1                                                    rust-crate  (+1 duplicate)   
+xml-rs                           0.8.28                                                   rust-crate  (+1 duplicate)   
+xz-libs                          5.8.3-r0                                                 apk                          
+yarl                             1.24.5                                                   python                       
+yoke                             0.8.1                                                    rust-crate  (+1 duplicate)   
+yoke-derive                      0.8.1                                                    rust-crate  (+1 duplicate)   
+zbus                             5.15.0                                                   rust-crate  (+1 duplicate)   
+zbus_macros                      5.15.0                                                   rust-crate  (+1 duplicate)   
+zbus_names                       4.3.2                                                    rust-crate  (+1 duplicate)   
+zc-lockfile                      4.0                                                      python                       
+zerocopy                         0.8.42                                                   rust-crate  (+1 duplicate)   
+zerocopy-derive                  0.8.42                                                   rust-crate  (+1 duplicate)   
+zerofrom                         0.1.6                                                    rust-crate  (+1 duplicate)   
+zerofrom-derive                  0.1.6                                                    rust-crate  (+1 duplicate)   
+zeroize                          1.9.0                                                    rust-crate  (+1 duplicate)   
+zerotrie                         0.2.3                                                    rust-crate  (+1 duplicate)   
+zerovec                          0.11.5                                                   rust-crate  (+1 duplicate)   
+zerovec-derive                   0.11.2                                                   rust-crate  (+1 duplicate)   
+zipp                             3.23.0                                                   python                       
+zlib                             1.3.2-r0                                                 apk                          
+zlib-rs                          0.6.3                                                    rust-crate  (+1 duplicate)   
+zmij                             1.0.21                                                   rust-crate  (+1 duplicate)   
+zstd                             0.13.3                                                   rust-crate  (+1 duplicate)   
+zstd-libs                        1.5.7-r2                                                 apk                          
+zstd-safe                        7.2.4                                                    rust-crate  (+1 duplicate)   
+zstd-sys                         2.0.16+zstd.1.5.7                                        rust-crate  (+1 duplicate)   
+zvariant                         5.11.0                                                   rust-crate  (+1 duplicate)   
+zvariant_derive                  5.11.0                                                   rust-crate  (+1 duplicate)   
+zvariant_utils                   3.3.1                                                    rust-crate  (+1 duplicate)   
+zxcvbn                           4.5.0                                                    python                       
