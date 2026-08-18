@@ -9,7 +9,7 @@ aho-corasick                     1.1.4                                          
 aiofiles                         25.1.0                                                   python                       
 aiohappyeyeballs                 2.7.1                                                    python                       
 aiohttp                          3.14.3                                                   python                       
-aiohttp-socks                    0.11.0                                                   python                       
+aiohttp-socks                    0.12.0                                                   python                       
 aiosignal                        1.4.0                                                    python                       
 allocator-api2                   0.2.21                                                   rust-crate  (+1 duplicate)   
 alpine-baselayout                3.7.2-r0                                                 apk                          
@@ -53,7 +53,7 @@ aws-lc-rs                        1.16.2                                         
 aws-lc-sys                       0.39.0                                                   rust-crate  (+1 duplicate)   
 babelfish                        0.6.1                                                    python                       
 backports-tarfile                1.2.0                                                    python                       
-backports-zstd                   1.6.0                                                    python                       
+backports-zstd                   1.7.0                                                    python                       
 base64                           0.22.1                                                   rust-crate  (+1 duplicate)   
 base64                           0.23.1                                                   rust-crate  (+1 duplicate)   
 base64ct                         1.8.3                                                    rust-crate  (+1 duplicate)   
@@ -70,8 +70,8 @@ block-padding                    0.3.3                                          
 boost1.84-python3                1.84.0-r3                                                apk                          
 boost1.84-system                 1.84.0-r3                                                apk                          
 borrow-or-share                  0.2.4                                                    rust-crate  (+1 duplicate)   
-boto3                            1.43.67                                                  python                       
-botocore                         1.43.67                                                  python                       
+boto3                            1.43.72                                                  python                       
+botocore                         1.43.72                                                  python                       
 boxcar                           0.2.14                                                   rust-crate  (+1 duplicate)   
 brotli                           1.2.0                                                    python                       
 brotli-libs                      1.2.0-r0                                                 apk                          
@@ -89,9 +89,9 @@ cbc                              0.1.2                                          
 certifi                          2026.7.22                                                python                       
 cffi                             2.1.1                                                    python                       
 cfg-if                           1.0.4                                                    rust-crate  (+1 duplicate)   
-chardet                          7.5.1                                                    python                       
+chardet                          7.6.0                                                    python                       
 charset                          0.1.5                                                    rust-crate  (+1 duplicate)   
-charset-normalizer               3.4.9                                                    python                       
+charset-normalizer               3.5.1                                                    python                       
 cheroot                          11.1.2                                                   python                       
 cherrypy                         18.10.0                                                  python                       
 cipher                           0.4.4                                                    rust-crate  (+1 duplicate)   
@@ -185,7 +185,7 @@ flask-cors                       6.0.5                                          
 flask-login                      0.6.3                                                    python                       
 flask-restx                      1.3.2                                                    python                       
 flate2                           1.1.9                                                    rust-crate  (+1 duplicate)   
-flexget                          3.20.5                                                   python                       
+flexget                          3.20.6                                                   python                       
 float-cmp                        0.10.0                                                   rust-crate  (+1 duplicate)   
 fluent-uri                       0.4.1                                                    rust-crate  (+1 duplicate)   
 fnv                              1.0.7                                                    rust-crate  (+1 duplicate)   
@@ -213,7 +213,7 @@ glob                             0.3.4                                          
 globset                          0.4.19                                                   rust-crate  (+1 duplicate)   
 globwalk                         0.9.1                                                    rust-crate  (+1 duplicate)   
 goblin                           0.10.7                                                   rust-crate  (+1 duplicate)   
-greenlet                         3.5.4                                                    python                       
+greenlet                         3.5.5                                                    python                       
 guessit                          3.8.0                                                    python                       
 gui                              UNKNOWN                                                  binary                       
 gui-32                           UNKNOWN                                                  binary                       
@@ -396,7 +396,7 @@ pkcs1                            0.7.5                                          
 pkcs5                            0.7.1                                                    rust-crate  (+1 duplicate)   
 pkcs8                            0.10.2                                                   rust-crate  (+1 duplicate)   
 plain                            0.2.3                                                    rust-crate  (+1 duplicate)   
-platformdirs                     4.11.1                                                   python                       
+platformdirs                     4.11.3                                                   python                       
 platformdirs                     4.4.0                                                    python                       
 plexapi                          4.18.2                                                   python                       
 plumbum                          2.0.2                                                    python                       
@@ -422,7 +422,7 @@ purl                             0.1.6                                          
 pyc                              3.12.14-r0                                               apk                          
 pycparser                        3.0                                                      python                       
 pycryptodome                     3.23.0                                                   python                       
-pygments                         2.20.0                                                   python                       
+pygments                         2.21.0                                                   python                       
 pymediainfo                      7.0.1                                                    python                       
 pynacl                           1.6.2                                                    python                       
 pynzb                            0.1.0                                                    python                       
@@ -430,15 +430,15 @@ pyparsing                        3.3.2                                          
 pyrss2gen                        1.1                                                      python                       
 pyscrypt                         1.6.2                                                    python                       
 pysftp                           0.2.9                                                    python                       
-pysubs2                          1.8.1                                                    python                       
+pysubs2                          1.9.0                                                    python                       
 python-dateutil                  2.9.0.post0                                              python                       
-python-socks                     2.8.2                                                    python                       
+python-socks                     3.0.0                                                    python                       
 python-telegram-bot              22.8                                                     python                       
 python3                          3.12.14-r0                                               apk                          
 python3-pyc                      3.12.14-r0                                               apk                          
 python3-pycache-pyc0             3.12.14-r0                                               apk                          
 pyyaml                           6.0.3                                                    python                       
-qbittorrent-api                  2026.8.0                                                 python                       
+qbittorrent-api                  2026.8.1                                                 python                       
 quick-xml                        0.41.0                                                   rust-crate  (+1 duplicate)   
 quinn                            0.11.9                                                   rust-crate  (+1 duplicate)   
 quinn-proto                      0.11.15                                                  rust-crate  (+1 duplicate)   
@@ -541,8 +541,8 @@ soupsieve                        2.9.2                                          
 spdx                             0.13.4                                                   rust-crate  (+1 duplicate)   
 spin                             0.9.8                                                    rust-crate  (+1 duplicate)   
 spki                             0.7.3                                                    rust-crate  (+1 duplicate)   
-sqlalchemy                       2.0.51                                                   python                       
-sqlite-libs                      3.51.2-r0                                                apk                          
+sqlalchemy                       2.0.52                                                   python                       
+sqlite-libs                      3.53.4-r0                                                apk                          
 srt                              3.5.3                                                    python                       
 ssl_client                       1.37.0-r30                                               apk                          
 stable_deref_trait               1.2.1                                                    rust-crate  (+1 duplicate)   
@@ -692,7 +692,7 @@ vte                              0.14.1                                         
 wait-timeout                     0.2.1                                                    rust-crate  (+1 duplicate)   
 walkdir                          2.5.0                                                    rust-crate  (+1 duplicate)   
 want                             0.3.1                                                    rust-crate  (+1 duplicate)   
-webencodings                     0.5.1                                                    python                       
+webencodings                     0.6.1                                                    python                       
 webpki-root-certs                1.0.9                                                    rust-crate  (+1 duplicate)   
 werkzeug                         3.1.8                                                    python                       
 wheel                            0.46.3                                                   python                       
