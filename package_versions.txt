@@ -298,7 +298,7 @@ libbz2                           1.0.8-r6                                       
 libc                             0.2.186                                                  rust-crate  (+1 duplicate)   
 libcrypto3                       3.5.7-r0                                                 apk                          
 libcurl                          8.20.0-r0                                                apk                          
-libexpat                         2.8.2-r0                                                 apk                          
+libexpat                         2.8.3-r0                                                 apk                          
 libffi                           3.5.2-r0                                                 apk                          
 libgcc                           15.2.0-r2                                                apk                          
 libidn2                          2.3.8-r0                                                 apk                          
