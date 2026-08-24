@@ -70,8 +70,8 @@ block-padding                    0.3.3                                          
 boost1.84-python3                1.84.0-r3                                                apk                          
 boost1.84-system                 1.84.0-r3                                                apk                          
 borrow-or-share                  0.2.4                                                    rust-crate  (+1 duplicate)   
-boto3                            1.43.72                                                  python                       
-botocore                         1.43.72                                                  python                       
+boto3                            1.43.78                                                  python                       
+botocore                         1.43.78                                                  python                       
 boxcar                           0.2.14                                                   rust-crate  (+1 duplicate)   
 brotli                           1.2.0                                                    python                       
 brotli-libs                      1.2.0-r0                                                 apk                          
@@ -134,7 +134,7 @@ csv-core                         0.1.13                                         
 ctrlc                            3.5.2                                                    rust-crate  (+1 duplicate)   
 ctutils                          0.4.2                                                    rust-crate  (+1 duplicate)   
 curl                             8.20.0-r0                                                apk                          
-curl-cffi                        0.16.0                                                   python                       
+curl-cffi                        0.16.1                                                   python                       
 cyclonedx-bom                    0.8.1                                                    rust-crate  (+1 duplicate)   
 cyclonedx-bom-macros             0.1.0                                                    rust-crate  (+1 duplicate)   
 data-encoding                    2.11.0                                                   rust-crate  (+1 duplicate)   
@@ -185,7 +185,7 @@ flask-cors                       6.0.5                                          
 flask-login                      0.6.3                                                    python                       
 flask-restx                      1.3.2                                                    python                       
 flate2                           1.1.9                                                    rust-crate  (+1 duplicate)   
-flexget                          3.20.6                                                   python                       
+flexget                          3.20.7                                                   python                       
 float-cmp                        0.10.0                                                   rust-crate  (+1 duplicate)   
 fluent-uri                       0.4.1                                                    rust-crate  (+1 duplicate)   
 fnv                              1.0.7                                                    rust-crate  (+1 duplicate)   
@@ -255,7 +255,7 @@ icu_properties                   2.1.2                                          
 icu_properties_data              2.1.2                                                    rust-crate  (+1 duplicate)   
 icu_provider                     2.1.1                                                    rust-crate  (+1 duplicate)   
 idna                             1.1.0                                                    rust-crate  (+1 duplicate)   
-idna                             3.18                                                     python                       
+idna                             3.19                                                     python                       
 idna_adapter                     1.2.1                                                    rust-crate  (+1 duplicate)   
 ignore                           0.4.31                                                   rust-crate  (+1 duplicate)   
 importlib-metadata               8.7.1                                                    python                       
@@ -546,7 +546,7 @@ sqlite-libs                      3.53.4-r0                                      
 srt                              3.5.3                                                    python                       
 ssl_client                       1.37.0-r30                                               apk                          
 stable_deref_trait               1.2.1                                                    rust-crate  (+1 duplicate)   
-stevedore                        5.9.0                                                    python                       
+stevedore                        5.9.1                                                    python                       
 strip-ansi-escapes               0.2.1                                                    rust-crate  (+1 duplicate)   
 strsim                           0.11.1                                                   rust-crate  (+1 duplicate)   
 strum                            0.28.0                                                   rust-crate  (+1 duplicate)   
