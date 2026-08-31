@@ -185,7 +185,7 @@ flask-cors                       6.0.5                                          
 flask-login                      0.6.3                                                    python                       
 flask-restx                      1.3.2                                                    python                       
 flate2                           1.1.9                                                    rust-crate  (+1 duplicate)   
-flexget                          3.20.9                                                   python                       
+flexget                          3.20.10                                                  python                       
 float-cmp                        0.10.0                                                   rust-crate  (+1 duplicate)   
 fluent-uri                       0.4.1                                                    rust-crate  (+1 duplicate)   
 fnv                              1.0.7                                                    rust-crate  (+1 duplicate)   
