@@ -703,7 +703,7 @@ writeable                        0.6.2                                          
 x509-parser                      0.18.1                                                   rust-crate  (+1 duplicate)   
 xattr                            1.6.1                                                    rust-crate  (+1 duplicate)   
 xml-rs                           0.8.28                                                   rust-crate  (+1 duplicate)   
-xz-libs                          5.8.3-r0                                                 apk                          
+xz-libs                          5.8.4-r0                                                 apk                          
 yarl                             1.24.5                                                   python                       
 yoke                             0.8.1                                                    rust-crate  (+1 duplicate)   
 yoke-derive                      0.8.1                                                    rust-crate  (+1 duplicate)   
