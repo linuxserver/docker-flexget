@@ -185,7 +185,7 @@ flask-cors                       6.0.5                                          
 flask-login                      0.6.3                                                    python                       
 flask-restx                      1.3.2                                                    python                       
 flate2                           1.1.9                                                    rust-crate  (+1 duplicate)   
-flexget                          3.20.14                                                  python                       
+flexget                          3.21.0                                                   python                       
 float-cmp                        0.10.0                                                   rust-crate  (+1 duplicate)   
 fluent-uri                       0.4.1                                                    rust-crate  (+1 duplicate)   
 fnv                              1.0.7                                                    rust-crate  (+1 duplicate)   
@@ -214,7 +214,7 @@ globset                          0.4.19                                         
 globwalk                         0.9.1                                                    rust-crate  (+1 duplicate)   
 goblin                           0.10.7                                                   rust-crate  (+1 duplicate)   
 greenlet                         3.5.5                                                    python                       
-guessit                          3.8.0                                                    python                       
+guessit                          4.2.1                                                    python                       
 gui                              UNKNOWN                                                  binary                       
 gui-32                           UNKNOWN                                                  binary                       
 gui-64                           UNKNOWN                                                  binary                       
