@@ -15,7 +15,7 @@ allocator-api2                   0.2.21                                         
 alpine-baselayout                3.7.2-r0                                                 apk                          
 alpine-baselayout-data           3.7.2-r0                                                 apk                          
 alpine-keys                      2.6-r0                                                   apk                          
-alpine-release                   3.23.5-r0                                                apk                          
+alpine-release                   3.23.6-r0                                                apk                          
 ambient-id                       0.0.11                                                   rust-crate  (+1 duplicate)   
 aniso8601                        10.0.1                                                   python                       
 annotated-doc                    0.0.5                                                    python                       
@@ -81,8 +81,8 @@ busybox-binsh                    1.37.0-r30                                     
 bytecheck                        0.8.2                                                    rust-crate  (+1 duplicate)   
 bytes                            1.12.1                                                   rust-crate  (+1 duplicate)   
 c-ares                           1.34.8-r0                                                apk                          
-ca-certificates                  20260611-r0                                              apk                          
-ca-certificates-bundle           20260611-r0                                              apk                          
+ca-certificates                  20260909-r0                                              apk                          
+ca-certificates-bundle           20260909-r0                                              apk                          
 cargo-util                       0.2.30                                                   rust-crate  (+1 duplicate)   
 catatonit                        0.2.1-r0                                                 apk                          
 cbc                              0.1.2                                                    rust-crate  (+1 duplicate)   
@@ -185,7 +185,7 @@ flask-cors                       6.0.5                                          
 flask-login                      0.6.3                                                    python                       
 flask-restx                      1.3.2                                                    python                       
 flate2                           1.1.9                                                    rust-crate  (+1 duplicate)   
-flexget                          3.21.0                                                   python                       
+flexget                          3.21.1                                                   python                       
 float-cmp                        0.10.0                                                   rust-crate  (+1 duplicate)   
 fluent-uri                       0.4.1                                                    rust-crate  (+1 duplicate)   
 fnv                              1.0.7                                                    rust-crate  (+1 duplicate)   
@@ -604,7 +604,7 @@ typer                            0.27.2                                         
 typer-slim                       0.24.0                                                   python                       
 typing-extensions                4.16.0                                                   python                       
 tzdata                           2026.4                                                   python                       
-tzdata                           2026c-r0                                                 apk                          
+tzdata                           2026d-r0                                                 apk                          
 tzlocal                          5.4.4                                                    python                       
 ucd-trie                         0.1.7                                                    rust-crate  (+1 duplicate)   
 unicase                          2.9.0                                                    rust-crate  (+1 duplicate)   
