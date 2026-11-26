@@ -1,8 +1,8 @@
 NAME                             VERSION                                                  TYPE                        
-7zip                             25.01-r0                                                 apk                          
+7zip                             26.01-r0                                                 apk                          
 Simple Launcher                  1.1.0.14                                                 binary      (+5 duplicates)  
 acl-libs                         2.3.2-r1                                                 apk                          
-ada-libs                         3.3.0-r0                                                 apk                          
+ada-libs                         4.0.0-r0                                                 apk                          
 adler2                           2.0.1                                                    rust-crate  (+1 duplicate)   
 aes                              0.8.4                                                    rust-crate  (+1 duplicate)   
 aho-corasick                     1.1.4                                                    rust-crate  (+1 duplicate)   
@@ -12,10 +12,10 @@ aiohttp                          3.14.5                                         
 aiohttp-socks                    0.12.0                                                   python                       
 aiosignal                        1.4.0                                                    python                       
 allocator-api2                   0.2.21                                                   rust-crate  (+1 duplicate)   
-alpine-baselayout                3.7.2-r0                                                 apk                          
-alpine-baselayout-data           3.7.2-r0                                                 apk                          
+alpine-baselayout                3.7.2-r1                                                 apk                          
+alpine-baselayout-data           3.7.2-r1                                                 apk                          
 alpine-keys                      2.6-r0                                                   apk                          
-alpine-release                   3.23.8-r0                                                apk                          
+alpine-release                   3.24.4-r0                                                apk                          
 ambient-id                       0.0.11                                                   rust-crate  (+1 duplicate)   
 aniso8601                        10.0.1                                                   python                       
 annotated-doc                    0.0.5                                                    python                       
@@ -53,11 +53,10 @@ aws-lc-rs                        1.16.2                                         
 aws-lc-sys                       0.39.0                                                   rust-crate  (+1 duplicate)   
 babelfish                        0.6.1                                                    python                       
 backports-tarfile                1.2.0                                                    python                       
-backports-zstd                   1.8.0                                                    python                       
 base64                           0.22.1                                                   rust-crate  (+1 duplicate)   
 base64                           0.23.1                                                   rust-crate  (+1 duplicate)   
 base64ct                         1.8.3                                                    rust-crate  (+1 duplicate)   
-bash                             5.3.3-r1                                                 apk                          
+bash                             5.3.9-r1                                                 apk                          
 bcrypt                           5.0.0                                                    python                       
 beautifulsoup4                   4.15.0                                                   python                       
 bitflags                         1.3.2                                                    rust-crate  (+1 duplicate)   
@@ -67,8 +66,8 @@ blinker                          1.9.0                                          
 block-buffer                     0.10.4                                                   rust-crate  (+1 duplicate)   
 block-buffer                     0.12.1                                                   rust-crate  (+1 duplicate)   
 block-padding                    0.3.3                                                    rust-crate  (+1 duplicate)   
-boost1.84-python3                1.84.0-r3                                                apk                          
-boost1.84-system                 1.84.0-r3                                                apk                          
+boost1.84-python3                1.84.0-r6                                                apk                          
+boost1.84-system                 1.84.0-r6                                                apk                          
 borrow-or-share                  0.2.4                                                    rust-crate  (+1 duplicate)   
 boto3                            1.43.118                                                 python                       
 botocore                         1.43.118                                                 python                       
@@ -76,8 +75,8 @@ boxcar                           0.2.14                                         
 brotli                           1.2.1                                                    python                       
 brotli-libs                      1.2.1-r0                                                 apk                          
 bstr                             1.12.1                                                   rust-crate  (+1 duplicate)   
-busybox                          1.37.0-r30                                               apk                          
-busybox-binsh                    1.37.0-r30                                               apk                          
+busybox                          1.37.0-r31                                               apk                          
+busybox-binsh                    1.37.0-r31                                               apk                          
 bytecheck                        0.8.2                                                    rust-crate  (+1 duplicate)   
 bytes                            1.12.1                                                   rust-crate  (+1 duplicate)   
 c-ares                           1.34.9-r0                                                apk                          
@@ -115,10 +114,10 @@ console                          0.16.4                                         
 const-oid                        0.10.2                                                   rust-crate  (+1 duplicate)   
 const-oid                        0.9.6                                                    rust-crate  (+1 duplicate)   
 const-random                     0.1.18                                                   rust-crate  (+1 duplicate)   
-coreutils                        9.8-r1                                                   apk                          
-coreutils-env                    9.8-r1                                                   apk                          
-coreutils-fmt                    9.8-r1                                                   apk                          
-coreutils-sha512sum              9.8-r1                                                   apk                          
+coreutils                        9.11-r0                                                  apk                          
+coreutils-env                    9.11-r0                                                  apk                          
+coreutils-fmt                    9.11-r0                                                  apk                          
+coreutils-sha512sum              9.11-r0                                                  apk                          
 cpufeatures                      0.2.17                                                   rust-crate  (+1 duplicate)   
 cpufeatures                      0.3.0                                                    rust-crate  (+1 duplicate)   
 crc32fast                        1.5.0                                                    rust-crate  (+1 duplicate)   
@@ -177,7 +176,7 @@ fastrand                         2.5.0                                          
 feedparser                       6.0.14                                                   python                       
 feedparser-sgmllib               2.1.0                                                    python                       
 filetime                         0.2.29                                                   rust-crate  (+1 duplicate)   
-findutils                        4.10.0-r0                                                apk                          
+findutils                        4.10.0-r1                                                apk                          
 fixedbitset                      0.5.7                                                    rust-crate  (+1 duplicate)   
 flask                            3.1.3                                                    python                       
 flask-compress                   1.25                                                     python                       
@@ -191,7 +190,9 @@ fluent-uri                       0.4.1                                          
 fnv                              1.0.7                                                    rust-crate  (+1 duplicate)   
 foldhash                         0.1.5                                                    rust-crate  (+1 duplicate)   
 foldhash                         0.2.0                                                    rust-crate  (+1 duplicate)   
+fontconfig                       2.17.1-r1                                                apk                          
 form_urlencoded                  1.2.2                                                    rust-crate  (+1 duplicate)   
+freetype                         2.14.3-r0                                                apk                          
 frozenlist                       1.8.0                                                    python                       
 fs-err                           3.3.1                                                    rust-crate  (+1 duplicate)   
 ftputil                          5.2.0                                                    python                       
@@ -244,8 +245,8 @@ hyper                            1.10.1                                         
 hyper-rustls                     0.27.7                                                   rust-crate  (+1 duplicate)   
 hyper-util                       0.1.20                                                   rust-crate  (+1 duplicate)   
 hyperframe                       6.1.0                                                    python                       
-icu-data-en                      76.1-r1                                                  apk                          
-icu-libs                         76.1-r1                                                  apk                          
+icu-data-en                      78.1-r0                                                  apk                          
+icu-libs                         78.1-r0                                                  apk                          
 icu_collections                  2.1.1                                                    rust-crate  (+1 duplicate)   
 icu_locale_core                  2.1.1                                                    rust-crate  (+1 duplicate)   
 icu_normalizer                   2.1.1                                                    rust-crate  (+1 duplicate)   
@@ -295,23 +296,30 @@ libattr                          2.5.2-r2                                       
 libbsd                           0.12.2-r0                                                apk                          
 libbz2                           1.0.8-r6                                                 apk                          
 libc                             0.2.186                                                  rust-crate  (+1 duplicate)   
-libcrypto3                       3.5.9-r0                                                 apk                          
+libcrypto3                       3.5.9-r1                                                 apk                          
 libcurl                          8.23.0-r0                                                apk                          
-libexpat                         2.10.0-r0                                                apk                          
+libexpat                         2.11.0-r0                                                apk                          
 libffi                           3.8.1-r0                                                 apk                          
-libgcc                           15.2.0-r2                                                apk                          
+libgcc                           15.2.0-r5                                                apk                          
 libidn2                          2.3.8-r0                                                 apk                          
-libintl                          0.24.1-r1                                                apk                          
+libintl                          1.0-r0                                                   apk                          
 libm                             0.2.16                                                   rust-crate  (+1 duplicate)   
-libmd                            1.1.0-r0                                                 apk                          
-libncursesw                      6.5_p20251123-r0                                         apk                          
-libpanelw                        6.5_p20251123-r0                                         apk                          
-libproc2                         4.0.5-r0                                                 apk                          
+libmd                            1.2.0-r0                                                 apk                          
+libncursesw                      6.6_p20260516-r0                                         apk                          
+libpanelw                        6.6_p20260516-r0                                         apk                          
+libpng                           1.6.59-r0                                                apk                          
+libproc2                         4.0.6-r0                                                 apk                          
 libpsl                           0.21.5-r3                                                apk                          
-libssl3                          3.5.9-r0                                                 apk                          
-libstdc++                        15.2.0-r2                                                apk                          
-libtorrent                       2.1.1                                                    python                       
-libunistring                     1.4.1-r0                                                 apk                          
+libssl3                          3.5.9-r1                                                 apk                          
+libstdc++                        15.2.0-r5                                                apk                          
+libunistring                     1.4.2-r0                                                 apk                          
+libuuid                          2.42.3-r1                                                apk                          
+libx11                           1.8.14-r0                                                apk                          
+libxau                           1.0.12-r0                                                apk                          
+libxcb                           1.17.0-r2                                                apk                          
+libxdmcp                         1.1.5-r1                                                 apk                          
+libxft                           2.3.9-r0                                                 apk                          
+libxrender                       0.9.13-r0                                                apk                          
 linux-pam                        1.7.1-r2                                                 apk                          
 linux-raw-sys                    0.12.1                                                   rust-crate  (+1 duplicate)   
 litemap                          0.8.1                                                    rust-crate  (+1 duplicate)   
@@ -339,11 +347,11 @@ more-itertools                   11.2.1                                         
 mpdecimal                        4.0.1-r0                                                 apk                          
 multidict                        7.2.1                                                    python                       
 munge                            0.4.7                                                    rust-crate  (+1 duplicate)   
-musl                             1.2.5-r24                                                apk                          
-musl-utils                       1.2.5-r24                                                apk                          
-ncurses-terminfo-base            6.5_p20251123-r0                                         apk                          
+musl                             1.2.6-r3                                                 apk                          
+musl-utils                       1.2.6-r3                                                 apk                          
+ncurses-terminfo-base            6.6_p20260516-r0                                         apk                          
 netcat-openbsd                   1.234.1-r0                                               apk                          
-nghttp2-libs                     1.69.0-r0                                                apk                          
+nghttp2-libs                     1.70.0-r0                                                apk                          
 nix                              0.31.3                                                   rust-crate  (+1 duplicate)   
 nodejs                           24.22.3-r0                                               apk                          
 nom                              7.1.3                                                    rust-crate  (+1 duplicate)   
@@ -413,12 +421,12 @@ proc-macro-error2                2.0.1                                          
 proc-macro2                      1.0.107                                                  rust-crate  (+1 duplicate)   
 procfs                           0.18.0                                                   rust-crate  (+1 duplicate)   
 procfs-core                      0.18.0                                                   rust-crate  (+1 duplicate)   
-procps-ng                        4.0.5-r0                                                 apk                          
+procps-ng                        4.0.6-r0                                                 apk                          
 propcache                        0.5.4                                                    python                       
 psutil                           7.2.2                                                    python                       
 ptr_meta                         0.3.1                                                    rust-crate  (+1 duplicate)   
 purl                             0.1.6                                                    rust-crate  (+1 duplicate)   
-pyc                              3.12.16-r0                                               apk                          
+pyc                              3.14.10-r2                                               apk                          
 pycparser                        3.12                                                     python                       
 pycryptodome                     4.2.0                                                    python                       
 pygments                         2.21.0                                                   python                       
@@ -432,9 +440,15 @@ pysubs2                          1.9.0                                          
 python-dateutil                  2.9.0.post0                                              python                       
 python-socks                     3.1.1                                                    python                       
 python-telegram-bot              22.8                                                     python                       
-python3                          3.12.16-r0                                               apk                          
-python3-pyc                      3.12.16-r0                                               apk                          
-python3-pycache-pyc0             3.12.16-r0                                               apk                          
+python3                          3.14.10-r2                                               apk                          
+python3-extra                    3.14.10-r3                                               apk                          
+python3-gdbm                     3.14.10-r3                                               apk                          
+python3-ndbm                     3.14.10-r3                                               apk                          
+python3-pyc                      3.14.10-r2                                               apk                          
+python3-pycache-pyc0             3.14.10-r2                                               apk                          
+python3-tkinter                  3.14.10-r3                                               apk                          
+python3-uuid                     3.14.10-r3                                               apk                          
+python3-zstd                     3.14.10-r3                                               apk                          
 pyyaml                           6.0.3                                                    python                       
 qbittorrent-api                  2026.10.1                                                python                       
 quick-xml                        0.41.0                                                   rust-crate  (+1 duplicate)   
@@ -453,7 +467,7 @@ rand_core                        0.9.5                                          
 rarfile                          4.5                                                      python                       
 rayon                            1.12.0                                                   rust-crate  (+1 duplicate)   
 rayon-core                       1.13.0                                                   rust-crate  (+1 duplicate)   
-readline                         8.3.1-r0                                                 apk                          
+readline                         8.3.3-r1                                                 apk                          
 rebulk                           6.0.1                                                    python                       
 ref-cast                         1.0.26                                                   rust-crate  (+1 duplicate)   
 referencing                      0.37.0                                                   python                       
@@ -495,7 +509,7 @@ ryu                              1.0.23                                         
 s3transfer                       0.19.3                                                   python                       
 salsa20                          0.10.2                                                   rust-crate  (+1 duplicate)   
 same-file                        1.0.6                                                    rust-crate  (+1 duplicate)   
-scanelf                          1.3.8-r2                                                 apk                          
+scanelf                          1.3.9-r1                                                 apk                          
 schemars                         1.2.1                                                    rust-crate  (+1 duplicate)   
 scopeguard                       1.2.0                                                    rust-crate  (+1 duplicate)   
 scroll                           0.13.0                                                   rust-crate  (+1 duplicate)   
@@ -515,7 +529,7 @@ setuptools                       84.2.1                                         
 sha1                             0.11.0                                                   rust-crate  (+1 duplicate)   
 sha2                             0.10.9                                                   rust-crate  (+1 duplicate)   
 sha2                             0.11.0                                                   rust-crate  (+1 duplicate)   
-shadow                           4.18.0-r0                                                apk                          
+shadow                           4.18.0-r1                                                apk                          
 sharded-slab                     0.1.7                                                    rust-crate  (+1 duplicate)   
 shell-escape                     0.1.5                                                    rust-crate  (+1 duplicate)   
 shellexpand                      3.1.2                                                    rust-crate  (+1 duplicate)   
@@ -523,13 +537,13 @@ shellingham                      1.5.4                                          
 signal-hook-registry             1.4.8                                                    rust-crate  (+1 duplicate)   
 signature                        2.2.0                                                    rust-crate  (+1 duplicate)   
 simd-adler32                     0.3.8                                                    rust-crate  (+1 duplicate)   
-simdjson                         3.12.0-r0                                                apk                          
-simdutf                          7.5.0-r1                                                 apk                          
+simdjson                         4.2.4-r0                                                 apk                          
+simdutf                          9.0.0-r0                                                 apk                          
 simdutf8                         0.1.5                                                    rust-crate  (+1 duplicate)   
 similar                          2.7.0                                                    rust-crate  (+1 duplicate)   
 similar                          3.1.1                                                    rust-crate  (+1 duplicate)   
 six                              1.17.0                                                   python                       
-skalibs-libs                     2.14.4.0-r0                                              apk                          
+skalibs-libs                     2.15.0.0-r0                                              apk                          
 slab                             0.4.12                                                   rust-crate  (+1 duplicate)   
 smallvec                         1.15.2                                                   rust-crate  (+1 duplicate)   
 smawk                            0.3.2                                                    rust-crate  (+1 duplicate)   
@@ -542,7 +556,7 @@ spki                             0.7.3                                          
 sqlalchemy                       2.1.6                                                    python                       
 sqlite-libs                      3.53.4-r0                                                apk                          
 srt                              3.5.3                                                    python                       
-ssl_client                       1.37.0-r30                                               apk                          
+ssl_client                       1.37.0-r31                                               apk                          
 stable_deref_trait               1.2.1                                                    rust-crate  (+1 duplicate)   
 stevedore                        5.9.1                                                    python                       
 strip-ansi-escapes               0.2.1                                                    rust-crate  (+1 duplicate)   
@@ -557,6 +571,7 @@ syn                              2.0.118                                        
 sync_wrapper                     1.0.2                                                    rust-crate  (+1 duplicate)   
 synstructure                     0.13.2                                                   rust-crate  (+1 duplicate)   
 target-lexicon                   0.13.5                                                   rust-crate  (+1 duplicate)   
+tcl                              8.6.17-r1                                                apk                          
 temp-env                         0.3.6                                                    rust-crate  (+1 duplicate)   
 tempfile                         3.27.0                                                   rust-crate  (+1 duplicate)   
 tempora                          5.13.0                                                   python                       
@@ -572,6 +587,7 @@ time-core                        0.1.8                                          
 tinystr                          0.8.2                                                    rust-crate  (+1 duplicate)   
 tinyvec                          1.11.0                                                   rust-crate  (+1 duplicate)   
 tinyvec_macros                   0.1.1                                                    rust-crate  (+1 duplicate)   
+tk                               8.6.17-r1                                                apk                          
 tokio                            1.53.1                                                   rust-crate  (+1 duplicate)   
 tokio-rustls                     0.26.4                                                   rust-crate  (+1 duplicate)   
 tokio-stream                     0.1.19                                                   rust-crate  (+1 duplicate)   
@@ -619,7 +635,7 @@ url                              2.5.8                                          
 urllib3                          2.8.0                                                    python                       
 utf8_iter                        1.0.4                                                    rust-crate  (+1 duplicate)   
 utf8parse                        0.2.2                                                    rust-crate  (+1 duplicate)   
-utmps-libs                       0.1.3.1-r0                                               apk                          
+utmps-libs                       0.1.3.3-r0                                               apk                          
 uuid                             1.24.0                                                   rust-crate  (+1 duplicate)   
 uv                               0.12.3                                                   rust-crate  (+1 duplicate)   
 uv-audit                         0.0.70                                                   rust-crate  (+1 duplicate)   
